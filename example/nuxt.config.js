@@ -10,10 +10,10 @@ module.exports = {
   },
   modules: [
     { handler: require('../') }
-  ],
-  nuxtcms: {
-    markdownPlugins: [
-      emoji
-    ]
-  }
+  ]
+  // nuxtcms: {
+  //   markdownPlugins: [
+  //     emoji
+  //   ]
+  // }
 }

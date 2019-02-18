@@ -1,0 +1,12 @@
+{
+  "article-1": {
+    "title": "Custom Title",
+    "slug": "article-1",
+    "tags": [
+      "tag 1",
+      "tag 2"
+    ],
+    "html": "<p>😄<br>\n😄</p>\n<h1>some html</h1>\n<h2>new again</h2>\n",
+    "date": "12-04-2019"
+  }
+}

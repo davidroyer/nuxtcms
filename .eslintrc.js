@@ -6,5 +6,8 @@ module.exports = {
   },
   extends: [
     '@nuxtjs'
-  ]
+  ],
+  rules: {
+    "vue/no-v-html": 0,
+  }
 }

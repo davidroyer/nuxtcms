@@ -1,3 +1,4 @@
+import emoji from 'markdown-it-emoji'
 const { resolve } = require('path')
 
 module.exports = {
@@ -9,5 +10,10 @@ module.exports = {
   },
   modules: [
     { handler: require('../') }
-  ]
+  ],
+  nuxtcms: {
+    markdownPlugins: [
+      emoji
+    ]
+  }
 }

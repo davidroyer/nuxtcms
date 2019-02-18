@@ -1,0 +1,8 @@
+{
+  "project-1": {
+    "title": "Project 1",
+    "slug": "project-1",
+    "tags": [],
+    "html": "<h1>I am project 1</h1>\n<p>more</p>\n"
+  }
+}

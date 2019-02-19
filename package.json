@@ -1,6 +1,6 @@
 {
-  "name": "nuxtcms",
-  "version": "0.0.6",
+  "name": "nuxt-cms",
+  "version": "0.0.7",
   "description": "CMS for Nuxt.js",
   "license": "MIT",
   "contributors": [

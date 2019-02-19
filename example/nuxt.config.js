@@ -10,7 +10,8 @@ module.exports = {
   },
   modules: [
     { handler: require('../') }
-  ]
+  ],
+  plugins: ['@/plugins/api']
   // nuxtcms: {
   //   markdownPlugins: [
   //     emoji

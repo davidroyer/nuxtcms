@@ -1,5 +1,5 @@
 ---
-title: Custom Title
+title: Custom Title h
 date: 12-04-2019
 tags:
     - tag 1
@@ -7,10 +7,11 @@ tags:
 ---
 
 :smile:
-:smile:
 
-hello
 
+hi hi 
 # some html
 
+## some more
+dsad
 ## new again

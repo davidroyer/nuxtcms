@@ -17,7 +17,7 @@
     "dev": "nuxt example",
     "lint": "eslint lib test",
     "test": "yarn lint && jest",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push --follow-tags && npm publish"
   },
   "files": [
     "lib"

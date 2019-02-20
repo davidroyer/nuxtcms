@@ -1,19 +1,23 @@
 /* eslint-disable no-console */
-// import * as api from '@/services/api'
-// import CollectionsApi from '@/services/api'
+const collectionRoutes = ['articles']
 
 export default (context, inject) => {
-  // const {
-  //   // $apiDirectory,
-  //   params
-  // } = context
-  let slug
-  if (context.params.slug) slug = context.params.slug
-  else slug = null
-  inject('slug', slug)
-  console.log('$apiDirectory: ', context.$apiDirectory)
+  if (context.isDev) {
+    const [baseRoute] = context.route.name.split('-')
 
-  // eslint-disable-next-line no-unused-vars
+    console.log('isDev - Should inject collections and collection items')
+
+    if (collectionRoutes.includes(baseRoute)) {
+      if (context.params.slug) {
+        inject(
+          'collectionItem',
+          require(`@/_jsonApi/${baseRoute}`)[context.params.slug].slug
+        )
+      } else {
+        inject('getCollection', require(`@/_jsonApi/${baseRoute}`))
+      }
+    }
+  }
 
   inject('get', (collection, slug) => {
     if (slug) {
@@ -22,9 +26,4 @@ export default (context, inject) => {
       return require(`@/_jsonApi/${collection}`)
     }
   })
-
-  // inject('get', (collection, slug) => get(collection, slug))
-
-// inject('getPost', slug => require(`@/_jsonApi/blog`)[slug])
-// inject('getPosts', () => require(`@/_jsonApi/blog`))
 }

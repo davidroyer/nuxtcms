@@ -1,0 +1,94 @@
+{
+  "tag-1": {
+    "name": "tag 1",
+    "posts": [
+      {
+        "title": "Custom Title 1a=b",
+        "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3"
+        ],
+        "date": "12-04-2019"
+      },
+      {
+        "title": "Article 2 - Custom Title a",
+        "slug": "article-2",
+        "tags": [
+          "article-2",
+          "tag 1",
+          "tag 10"
+        ]
+      }
+    ],
+    "slug": "tag-1",
+    "title": "Tag 1"
+  },
+  "tag-2": {
+    "name": "tag 2",
+    "posts": [
+      {
+        "title": "Custom Title 1a=b",
+        "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3"
+        ],
+        "date": "12-04-2019"
+      }
+    ],
+    "slug": "tag-2",
+    "title": "Tag 2"
+  },
+  "tag-3": {
+    "name": "tag 3",
+    "posts": [
+      {
+        "title": "Custom Title 1a=b",
+        "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3"
+        ],
+        "date": "12-04-2019"
+      }
+    ],
+    "slug": "tag-3",
+    "title": "Tag 3"
+  },
+  "article-2": {
+    "name": "article-2",
+    "posts": [
+      {
+        "title": "Article 2 - Custom Title a",
+        "slug": "article-2",
+        "tags": [
+          "article-2",
+          "tag 1",
+          "tag 10"
+        ]
+      }
+    ],
+    "slug": "article-2",
+    "title": "Article 2"
+  },
+  "tag-10": {
+    "name": "tag 10",
+    "posts": [
+      {
+        "title": "Article 2 - Custom Title a",
+        "slug": "article-2",
+        "tags": [
+          "article-2",
+          "tag 1",
+          "tag 10"
+        ]
+      }
+    ],
+    "slug": "tag-10",
+    "title": "Tag 10"
+  }
+}

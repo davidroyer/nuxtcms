@@ -1,0 +1,23 @@
+{
+  "article-1": {
+    "title": "Custom Title 1a=b",
+    "slug": "article-1",
+    "tags": [
+      "tag 1",
+      "tag 2",
+      "tag 3"
+    ],
+    "html": "<p>NEW415</p>\n<h1>heading 1c</h1>\n<h2>heading 2</h2>\n<h3>heading 3</h3>\n",
+    "date": "12-04-2019"
+  },
+  "article-2": {
+    "title": "Article 2 - Custom Title a",
+    "slug": "article-2",
+    "tags": [
+      "article-2",
+      "tag 1",
+      "tag 10"
+    ],
+    "html": "<h1>content here b</h1>\n"
+  }
+}

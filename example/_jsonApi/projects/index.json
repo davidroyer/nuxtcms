@@ -3,6 +3,12 @@
     "title": "Project 1",
     "slug": "project-1",
     "tags": [],
-    "html": "<h1>I am project 1</h1>\n<h2>heading 2</h2>\n<p>A</p>\n<p>more</p>\n"
+    "html": "<h1>I am project 1</h1>\n<h2>heading 2b</h2>\n<p>s<br>\nA1s</p>\n<p>more</p>\n<p>as</p>\n"
+  },
+  "project-2": {
+    "title": "Project 2",
+    "slug": "project-2",
+    "tags": [],
+    "html": "<h1>I am project 2</h1>\n<h2>hello</h2>\n<ul>\n<li>i1</li>\n<li>i2</li>\n<li>i3</li>\n</ul>\n"
   }
 }

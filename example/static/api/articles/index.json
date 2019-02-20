@@ -1,6 +1,6 @@
 {
   "article-1": {
-    "title": "Custom Title 1a=b",
+    "title": "Custom Title 1a=ba",
     "slug": "article-1",
     "tags": [
       "tag 1",
@@ -11,13 +11,13 @@
     "date": "12-04-2019"
   },
   "article-2": {
-    "title": "Article 2 - Custom Title a",
+    "title": "Article 2 - Custom Title b",
     "slug": "article-2",
     "tags": [
       "article-2",
       "tag 1",
       "tag 10"
     ],
-    "html": "<h1>content here b</h1>\n"
+    "html": "<blockquote>\n<p>blockquote</p>\n</blockquote>\n<h1>content here b</h1>\n"
   }
 }

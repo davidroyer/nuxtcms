@@ -3,7 +3,7 @@
     "name": "tag 1",
     "posts": [
       {
-        "title": "Custom Title 1a=b",
+        "title": "Custom Title 1a=ba",
         "slug": "article-1",
         "tags": [
           "tag 1",
@@ -13,7 +13,7 @@
         "date": "12-04-2019"
       },
       {
-        "title": "Article 2 - Custom Title a",
+        "title": "Article 2 - Custom Title b",
         "slug": "article-2",
         "tags": [
           "article-2",
@@ -29,7 +29,7 @@
     "name": "tag 2",
     "posts": [
       {
-        "title": "Custom Title 1a=b",
+        "title": "Custom Title 1a=ba",
         "slug": "article-1",
         "tags": [
           "tag 1",
@@ -46,7 +46,7 @@
     "name": "tag 3",
     "posts": [
       {
-        "title": "Custom Title 1a=b",
+        "title": "Custom Title 1a=ba",
         "slug": "article-1",
         "tags": [
           "tag 1",
@@ -63,7 +63,7 @@
     "name": "article-2",
     "posts": [
       {
-        "title": "Article 2 - Custom Title a",
+        "title": "Article 2 - Custom Title b",
         "slug": "article-2",
         "tags": [
           "article-2",
@@ -79,7 +79,7 @@
     "name": "tag 10",
     "posts": [
       {
-        "title": "Article 2 - Custom Title a",
+        "title": "Article 2 - Custom Title b",
         "slug": "article-2",
         "tags": [
           "article-2",

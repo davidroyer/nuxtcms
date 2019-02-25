@@ -1,0 +1,10 @@
+{
+  "c1-test": {
+    "title": "C1 Test",
+    "slug": "c1-test",
+    "tags": [
+      "tag 1"
+    ],
+    "html": "<h1>new</h1>\n"
+  }
+}

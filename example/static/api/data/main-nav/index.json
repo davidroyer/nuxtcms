@@ -1,0 +1,31 @@
+[
+  {
+    "index": {
+      "label": "Home",
+      "to": "/",
+      "title": false
+    }
+  },
+  {
+    "page-2": {
+      "label": "Page 2",
+      "to": "/page-2"
+    }
+  },
+  {
+    "about": {
+      "label": "About Use",
+      "to": "/about",
+      "title": false,
+      "description": "NEW4 Learn more about the people behind Developmint and get to know us before we get to know you!"
+    }
+  },
+  {
+    "contact": {
+      "label": "Contact",
+      "to": "/contact",
+      "title": false,
+      "description": "Learn more about the people behind Developmint and get to know us before we get to know you!"
+    }
+  }
+]

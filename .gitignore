@@ -10,3 +10,5 @@ dist
 
 _BACKUP
 .BACKUP
+
+lib/cms.js

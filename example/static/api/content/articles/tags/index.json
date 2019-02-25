@@ -12,15 +12,6 @@
           "tag 4"
         ],
         "date": "12-04-2019"
-      },
-      {
-        "title": "Article 2 - Custom Title b",
-        "slug": "article-2",
-        "tags": [
-          "article-2",
-          "tag 1",
-          "tag 10"
-        ]
       }
     ],
     "slug": "tag-1",
@@ -79,37 +70,5 @@
     ],
     "slug": "tag-4",
     "title": "Tag 4"
-  },
-  "article-2": {
-    "name": "article-2",
-    "posts": [
-      {
-        "title": "Article 2 - Custom Title b",
-        "slug": "article-2",
-        "tags": [
-          "article-2",
-          "tag 1",
-          "tag 10"
-        ]
-      }
-    ],
-    "slug": "article-2",
-    "title": "Article 2"
-  },
-  "tag-10": {
-    "name": "tag 10",
-    "posts": [
-      {
-        "title": "Article 2 - Custom Title b",
-        "slug": "article-2",
-        "tags": [
-          "article-2",
-          "tag 1",
-          "tag 10"
-        ]
-      }
-    ],
-    "slug": "tag-10",
-    "title": "Tag 10"
   }
 }

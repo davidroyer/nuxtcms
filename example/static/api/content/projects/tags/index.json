@@ -1,1 +1,74 @@
-{}
+{
+  "tag-1": {
+    "name": "tag 1",
+    "posts": [
+      {
+        "title": "Custom Title c",
+        "slug": "project-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "date": "12-04-2019"
+      }
+    ],
+    "slug": "tag-1",
+    "title": "Tag 1"
+  },
+  "tag-2": {
+    "name": "tag 2",
+    "posts": [
+      {
+        "title": "Custom Title c",
+        "slug": "project-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "date": "12-04-2019"
+      }
+    ],
+    "slug": "tag-2",
+    "title": "Tag 2"
+  },
+  "tag-3": {
+    "name": "tag 3",
+    "posts": [
+      {
+        "title": "Custom Title c",
+        "slug": "project-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "date": "12-04-2019"
+      }
+    ],
+    "slug": "tag-3",
+    "title": "Tag 3"
+  },
+  "tag-4": {
+    "name": "tag 4",
+    "posts": [
+      {
+        "title": "Custom Title c",
+        "slug": "project-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "date": "12-04-2019"
+      }
+    ],
+    "slug": "tag-4",
+    "title": "Tag 4"
+  }
+}

@@ -1,20 +1,23 @@
-- index:
-    label: Home
-    to: /
-    title: false
+index:
+    label: HomeA
 
-- page-2:
-    label: Page 2
-    to: /page-2
+articles:
+    label: Articles
+    to: /articles
 
-- about:
-    label: About Use
-    to: /about
-    title: false
-    description: NEW4 Learn more about the people behind Developmint and get to know us before we get to know you!
+projects:
+    label: Projects
+    to: /projects
 
-- contact:
-    label: Contact
-    to: /contact
-    title: false
-    description: Learn more about the people behind Developmint and get to know us before we get to know you!
+
+# - about:
+#     label: About Use
+#     to: /about
+#     title: false
+#     description: NEW4 Learn more about the people behind Developmint and get to know us before we get to know you!
+
+# - contact:
+#     label: Contact
+#     to: /contact
+#     title: false
+#     description: Learn more about the people behind Developmint and get to know us before we get to know you!

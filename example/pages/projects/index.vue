@@ -9,9 +9,10 @@
 
 <script>
 export default {
-  asyncData({ app, params }) {
+  asyncData({ $projects, params }) {
     return {
-      projects: app.$get('projects')
+      projects: $projects
+      // projects: app.$get('projects')
     }
   }
 }

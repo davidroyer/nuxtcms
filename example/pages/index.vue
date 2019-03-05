@@ -12,16 +12,18 @@
 
 <script>
 export default {
-  asyncData({ app, $mainNav, $articles }) {
+  asyncData({ app }) {
+  // asyncData({ app, $mainNav, $data1, $articles }) {
     // eslint-disable-next-line no-console
-    console.log(app)
+    // console.log(app)
 
     return {
-      articles: $articles,
-      // articles: app.$get('articles'),
-      menu: $mainNav,
-      mainNav: app.$data('main-nav'),
-      members: app.$data('members')
+      articles: app.$get('articles'),
+      // dataTest: $data1,
+      // menu: $mainNav,
+      menu: app.$data('main-nav'),
+      mainNav: app.$data('main-nav')
+      // members: app.$data('members')
     }
   }
 }

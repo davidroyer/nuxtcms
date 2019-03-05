@@ -1,5 +1,6 @@
 <template>
   <div>
+    <pre>{{ nav }}</pre>
     <nuxt-link v-for="article in articles" :key="article.slug" :to="`/articles/${article.slug}`">
       {{ article.title }}
     </nuxt-link>
@@ -11,7 +12,8 @@
 export default {
   asyncData({ app, params }) {
     return {
-      articles: app.$get('articles')
+      articles: app.$get('articles'),
+      nav: app.$data('main-nav')
     }
   }
 }

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/davidroyer/nuxtcms/compare/v0.1.3...v0.2.0) (2019-03-06)
+
+
+### Features
+
+* adds $content injection ([3b4dd62](https://github.com/davidroyer/nuxtcms/commit/3b4dd62))
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/davidroyer/nuxtcms/compare/v0.1.2...v0.1.3) (2019-03-06)
 

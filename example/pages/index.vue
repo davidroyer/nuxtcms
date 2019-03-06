@@ -6,23 +6,17 @@
     <hr>
 
     <h2>Main Menu</h2>
-    <pre>{{ menu }}</pre>
+    <pre>{{ mainMenu }}</pre>
   </div>
 </template>
 
 <script>
 export default {
-  asyncData({ app }) {
-  // asyncData({ app, $mainNav, $data1, $articles }) {
-    // eslint-disable-next-line no-console
-    // console.log(app)
-
+  asyncData({ app, $articles, $mainNav, $mainMenu }) {
     return {
-      articles: app.$get('articles'),
-      // dataTest: $data1,
-      // menu: $mainNav,
-      menu: app.$data('main-nav'),
-      mainNav: app.$data('main-nav')
+      articles: $articles.all(),
+      mainMenu: $mainMenu,
+      mainNav: $mainNav
       // members: app.$data('members')
     }
   }

@@ -1,14 +1,14 @@
-{
-  "index": {
-    "to": "/",
-    "label": "Home"
+[
+  {
+    "label": "Home C",
+    "to": "/"
   },
-  "articles": {
+  {
     "label": "Articles",
     "to": "/articles"
   },
-  "projects": {
+  {
     "label": "Projects",
     "to": "/projects"
   }
-}
+]

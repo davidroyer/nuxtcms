@@ -9,10 +9,16 @@
 
 <script>
 export default {
-  asyncData({ app, params }) {
+  asyncData({ $articles, params }) {
+    const article = $articles.get(params.slug)
+    return { article }
+  },
+  head() {
     return {
-      // date: app.$date,
-      article: app.$get('articles', params.slug)
+      title: this.article.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.article.description || 'Default description here' }
+      ]
     }
   }
 }

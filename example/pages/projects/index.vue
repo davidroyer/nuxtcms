@@ -9,10 +9,9 @@
 
 <script>
 export default {
-  asyncData({ $projects, params }) {
+  asyncData({ $projects }) {
     return {
-      projects: $projects
-      // projects: app.$get('projects')
+      projects: $projects.all()
     }
   }
 }

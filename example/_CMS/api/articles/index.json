@@ -1,6 +1,6 @@
 {
   "article-1": {
-    "title": "Custom Title D",
+    "title": "Custom Title B",
     "slug": "article-1",
     "tags": [
       "tag 1",
@@ -8,7 +8,8 @@
       "tag 3",
       "tag 4"
     ],
-    "html": "<h1>heading 1e</h1>\n<p>aa</p>\n<p>aa</p>\n<p>bb</p>\n<p>dss</p>\n<p>ss</p>\n<p>😄</p>\n<h1>heading 1cb</h1>\n<h2>heading 2b</h2>\n<h2>heading 2</h2>\n<h3>heading 3</h3>\n",
-    "date": "12-04-2019"
+    "html": "<h1>heading 1e</h1>\n<h2>Heading 2a</h2>\n<p>ss</p>\n<p>😄</p>\n<h1>heading 1cb</h1>\n<h2>heading 2b</h2>\n<h2>heading 2</h2>\n<h3>heading 3</h3>\n",
+    "date": "12-04-2019",
+    "description": "Some basic description for this article to use as an excerpt. It should include good info to entice someone to click to read more."
   }
 }

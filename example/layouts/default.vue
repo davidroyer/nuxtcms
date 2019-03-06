@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <pre>{{ $data('main-nav') }}</pre> -->
-    <nuxt-link v-for="(route, index) in $mainNav" :key="index" :to="`${route.to}`">
+    <nuxt-link v-for="(route, index) in $mainMenu" :key="index" :to="`${route.to}`">
       {{ route.label }}
     </nuxt-link>
     <nuxt />

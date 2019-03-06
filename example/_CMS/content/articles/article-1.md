@@ -1,6 +1,9 @@
 ---
-title: Custom Title D
+title: Custom Title B
 date: 12-04-2019
+description:
+    Some basic description for this article to use as an excerpt.
+    It should include good info to entice someone to click to read more.
 tags:
     - tag 1
     - tag 2
@@ -10,14 +13,7 @@ tags:
 
 # heading 1e
 
-aa
-
-aa
-
-bb
-
-
-dss
+## Heading 2a
 
 ss
 

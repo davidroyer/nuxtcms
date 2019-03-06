@@ -1,14 +1,14 @@
-index:
-    to: /
-    label: Home
+# - name: index
+- label: Home C
+  to: /
 
-articles:
-    label: Articles
-    to: /articles
+# - name: articles
+- label: Articles
+  to: /articles
 
-projects:
-    label: Projects
-    to: /projects
+# - name: projects
+- label: Projects
+  to: /projects
 
 
 # - about:

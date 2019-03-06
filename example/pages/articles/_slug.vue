@@ -9,8 +9,9 @@
 
 <script>
 export default {
-  asyncData({ $articles, params }) {
-    const article = $articles.get(params.slug)
+  asyncData({ $content, params }) {
+    // const article = $articles.get(params.slug)
+    const article = $content.get('articles', params.slug)
     return { article }
   },
   head() {

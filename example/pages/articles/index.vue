@@ -9,10 +9,14 @@
 
 <script>
 export default {
-  asyncData({ $articles }) {
-    return {
-      articles: $articles.all()
-    }
+
+  asyncData({ $content }) {
+    const articles = $content.get('articles')
+    return { articles }
+
+    // return {
+    //   articles: $articles.all()
+    // }
   }
 }
 </script>

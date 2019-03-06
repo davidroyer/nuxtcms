@@ -9,10 +9,13 @@
 
 <script>
 export default {
-  asyncData({ $projects }) {
-    return {
-      projects: $projects.all()
-    }
+  asyncData({ $content }) {
+    const projects = $content.get('projects')
+    return { projects }
+
+    // return {
+    //   projects: $projects.all()
+    // }
   }
 }
 </script>

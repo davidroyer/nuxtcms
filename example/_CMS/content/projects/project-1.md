@@ -1,5 +1,5 @@
 ---
-title: Custom Title c
+title: Project 1 Title
 date: 12-04-2019
 tags:
     - tag 1
@@ -9,7 +9,7 @@ tags:
 ---
 
 
-# I am project 1aaaaa
+# I am project
 
 ## heading 2b
 s

@@ -7,8 +7,9 @@
 
 <script>
 export default {
-  asyncData({ $projects, params }) {
-    const project = $projects.get(params.slug)
+  asyncData({ $content, params }) {
+    // const project = $projects.get(params.slug)
+    const project = $content.get('projects', params.slug)
     return { project }
   }
 }

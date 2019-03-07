@@ -13,10 +13,6 @@ export default {
   asyncData({ $content }) {
     const articles = $content.get('articles')
     return { articles }
-
-    // return {
-    //   articles: $articles.all()
-    // }
   }
 }
 </script>

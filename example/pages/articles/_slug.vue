@@ -10,7 +10,6 @@
 <script>
 export default {
   asyncData({ $content, params }) {
-    // const article = $articles.get(params.slug)
     const article = $content.get('articles', params.slug)
     return { article }
   },

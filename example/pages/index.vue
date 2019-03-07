@@ -3,12 +3,12 @@
     <h2>Projects</h2>
     <pre>{{ projects }}</pre>
 
-    <hr>
+    <br><hr><br>
 
     <h2>Articles</h2>
     <pre>{{ articles }}</pre>
 
-    <hr>
+    <br><hr><br>
 
     <h2>Main Menu</h2>
     <pre>{{ mainMenu }}</pre>
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  asyncData({ app, $articles, $content, $mainNav, $mainMenu }) {
+  asyncData({ app, $articles, $content, $mainMenu, $mainNav }) {
     const slug = 'project-1'
     return {
       // articles: $articles.all(),

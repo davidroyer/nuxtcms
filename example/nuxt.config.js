@@ -33,5 +33,13 @@ module.exports = {
 
       return [...blogRoutes, ...projectRoutes]
     }
+  },
+
+  build: {
+    // analyze: true
+    // or
+    // analyze: {
+    //   analyzerMode: 'static'
+    // }
   }
 }

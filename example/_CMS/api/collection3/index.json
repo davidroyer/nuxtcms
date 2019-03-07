@@ -1,10 +1,4 @@
 {
-  "file-2": {
-    "title": "File 2",
-    "slug": "file-2",
-    "tags": [],
-    "html": "<p>file 2 conent</p>\n<p>a</p>\n"
-  },
   "file-3": {
     "title": "File 3",
     "slug": "file-3",

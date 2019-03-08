@@ -17,16 +17,17 @@
 
 <script>
 export default {
-  asyncData({ app, $articles, $content, $mainMenu, $mainNav }) {
+  asyncData({ app, $articles, $content, $dataApi }) {
+  // asyncData({ app, $articles, $content, $mainMenu, $mainNav }) {
     const slug = 'project-1'
     return {
       // articles: $articles.all(),
       articles: $content.get('articles'),
       projects: $content.get('projects'),
       singleProject: $content.get('projects', slug),
-      mainMenu: $mainMenu,
-      mainNav: $mainNav
-      // members: app.$data('members')
+      mainMenu: $dataApi.mainMenu,
+      mainNav: $dataApi.mainNav
+      // members: app.$dataApi('members')
     }
   }
 }

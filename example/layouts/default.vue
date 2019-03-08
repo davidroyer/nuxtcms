@@ -1,21 +1,20 @@
 <template>
   <div>
-    <!-- <pre>{{ $data('main-nav') }}</pre> -->
-    <nuxt-link v-for="(route, index) in $mainMenu" :key="index" :to="`${route.to}`">
-      {{ route.label }}
-    </nuxt-link>
+    <Nav />
+    <h2>DataApi</h2>
+    <pre>{{ $dataApi }}</pre>
+
     <nuxt />
   </div>
 </template>
 
 <script>
+import Nav from '@/components/nav'
 export default {
-
+  components: { Nav }
 }
 </script>
 
 <style>
-  body {
-    /* background-color: lightgrey; */
-  }
+
 </style>

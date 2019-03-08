@@ -10,15 +10,9 @@
 export default {
   computed: {
     nav() {
-      return this.$store.state.menu
+      return this.$cmsApi.get('main-menu')
+      // return this.$store.state.menu
     }
-  },
-
-  mounted() {
-    // eslint-disable-next-line no-console
-    console.log('from component - $data test', this.$dataApi)
-    // eslint-disable-next-line no-console
-    console.log('from component - articles test', this.$mainMenu)
   }
 }
 </script>

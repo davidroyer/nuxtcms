@@ -7,8 +7,8 @@
 
 <script>
 export default {
-  asyncData({ $content, params }) {
-    const project = $content.get('projects', params.slug)
+  asyncData({ $cmsApi, params }) {
+    const project = $cmsApi.get('projects', params.slug)
     return { project }
   }
 }

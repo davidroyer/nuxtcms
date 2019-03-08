@@ -3,7 +3,7 @@
     "name": "tag 1",
     "posts": [
       {
-        "title": "Project 1 Title Ca",
+        "title": "Project 1 Title B",
         "slug": "project-1",
         "tags": [
           "tag 1",
@@ -21,7 +21,7 @@
     "name": "tag 2",
     "posts": [
       {
-        "title": "Project 1 Title Ca",
+        "title": "Project 1 Title B",
         "slug": "project-1",
         "tags": [
           "tag 1",
@@ -39,7 +39,7 @@
     "name": "tag 3",
     "posts": [
       {
-        "title": "Project 1 Title Ca",
+        "title": "Project 1 Title B",
         "slug": "project-1",
         "tags": [
           "tag 1",
@@ -57,7 +57,7 @@
     "name": "tag 4",
     "posts": [
       {
-        "title": "Project 1 Title Ca",
+        "title": "Project 1 Title B",
         "slug": "project-1",
         "tags": [
           "tag 1",

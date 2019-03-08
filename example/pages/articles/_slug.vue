@@ -9,11 +9,10 @@
 
 <script>
 export default {
-  asyncData({ $cmsApi, $content, params }) {
-    const article = $cmsApi.$get('articles', params.slug)
-    const file7 = $cmsApi.file7
-    // const article = $content.get('articles', params.slug)
-    return { article, file7 }
+  asyncData({ $cmsApi, params }) {
+    const article = $cmsApi.get('articles', params.slug)
+    const mainNav = $cmsApi.get('main-nav')
+    return { article, mainNav }
   },
   head() {
     return {

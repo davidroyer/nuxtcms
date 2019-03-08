@@ -1,7 +1,6 @@
 /* eslint-disable no-console */
 export const state = () => ({
   menu: [],
-  dataApi: {},
   testFile: {}
 })
 
@@ -11,7 +10,6 @@ export const mutations = {
   //   state.someValue = newValue
   // },
 
-  setDataApi: (state, payload) => (state.dataApi = payload),
   setMenu: (state, payload) => (state.menu = payload),
   setTestFile: (state, payload) => (state.testFile = payload)
 
@@ -19,10 +17,9 @@ export const mutations = {
 
 export const actions = {
 
-  nuxtServerInit({ commit, state }, { $dataApi, isDev }) {
-    commit('setDataApi', $dataApi)
-    commit('setMenu', $dataApi.mainMenu)
-    commit('setTestFile', $dataApi.mainNav)
+  nuxtServerInit({ commit, state }, { $cmsApi, isDev }) {
+    commit('setMenu', $cmsApi.get('main-menu'))
+    commit('setTestFile', $cmsApi.get('file-7'))
   }
 
   // setSomeValueToWhatever({ commit }) {

@@ -1,5 +1,5 @@
 # - name: index
-- label: Home B
+- label: Home
   to: /
 
 # - name: articles

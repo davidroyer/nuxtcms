@@ -1,6 +1,6 @@
 ---
-title: Custom Title b
-image: hero1.png
+title: Article 2 Title
+# image: hero1.png
 date: 12-04-2019
 description:
     Some basic description for this article to use as an excerpt.
@@ -13,11 +13,9 @@ tags:
     - tag 5
 ---
 
-# head
+A
 
-[I'm an inline-style link](https://www.google.com)
-<!-- 
-![Image Test](~/assets/hero1.png) -->
+<!-- ![Image Test](/images/image1.png) -->
 
 # heading 1as
 

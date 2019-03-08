@@ -3,8 +3,22 @@
     "name": "tag 1",
     "posts": [
       {
-        "title": "Custom Title Asa",
+        "title": "Custom Title b",
         "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4",
+          "tag 5"
+        ],
+        "image": "hero1.png",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as an excerpt. It should include good info to entice someone to click to read more."
+      },
+      {
+        "title": "Article 2 Title",
+        "slug": "article-2",
         "tags": [
           "tag 1",
           "tag 2",
@@ -23,8 +37,22 @@
     "name": "tag 2",
     "posts": [
       {
-        "title": "Custom Title Asa",
+        "title": "Custom Title b",
         "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4",
+          "tag 5"
+        ],
+        "image": "hero1.png",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as an excerpt. It should include good info to entice someone to click to read more."
+      },
+      {
+        "title": "Article 2 Title",
+        "slug": "article-2",
         "tags": [
           "tag 1",
           "tag 2",
@@ -43,8 +71,22 @@
     "name": "tag 3",
     "posts": [
       {
-        "title": "Custom Title Asa",
+        "title": "Custom Title b",
         "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4",
+          "tag 5"
+        ],
+        "image": "hero1.png",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as an excerpt. It should include good info to entice someone to click to read more."
+      },
+      {
+        "title": "Article 2 Title",
+        "slug": "article-2",
         "tags": [
           "tag 1",
           "tag 2",
@@ -63,8 +105,22 @@
     "name": "tag 4",
     "posts": [
       {
-        "title": "Custom Title Asa",
+        "title": "Custom Title b",
         "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4",
+          "tag 5"
+        ],
+        "image": "hero1.png",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as an excerpt. It should include good info to entice someone to click to read more."
+      },
+      {
+        "title": "Article 2 Title",
+        "slug": "article-2",
         "tags": [
           "tag 1",
           "tag 2",
@@ -83,8 +139,22 @@
     "name": "tag 5",
     "posts": [
       {
-        "title": "Custom Title Asa",
+        "title": "Custom Title b",
         "slug": "article-1",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4",
+          "tag 5"
+        ],
+        "image": "hero1.png",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as an excerpt. It should include good info to entice someone to click to read more."
+      },
+      {
+        "title": "Article 2 Title",
+        "slug": "article-2",
         "tags": [
           "tag 1",
           "tag 2",

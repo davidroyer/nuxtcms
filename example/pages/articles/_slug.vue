@@ -1,8 +1,7 @@
 <template>
   <div>
     <h1 v-text="article.title" />
-    <hr>
-    <h3>Local version: {{ Date.parse(new Date()) }}</h3>
+    <img v-if="article.image" :src="imagePath">
     <article v-html="article.html" />
   </div>
 </template>
@@ -11,8 +10,7 @@
 export default {
   asyncData({ $cmsApi, params }) {
     const article = $cmsApi.get('articles', params.slug)
-    const mainNav = $cmsApi.get('main-nav')
-    return { article, mainNav }
+    return { article }
   },
   head() {
     return {
@@ -21,6 +19,17 @@ export default {
         { hid: 'description', name: 'description', content: this.article.description || 'Default description here' }
       ]
     }
+  },
+  computed: {
+    imagePath() {
+      return require(`~/assets/${this.article.image}`)
+    }
   }
 }
 </script>
+
+<style>
+img {
+  max-width: 800px;
+}
+</style>

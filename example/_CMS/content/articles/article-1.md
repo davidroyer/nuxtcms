@@ -1,5 +1,5 @@
 ---
-title: Custom Title A NEWWWWW
+title: Custom Title BRANDH NEW
 image: hero1.png
 date: 12-04-2019
 description:

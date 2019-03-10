@@ -1,5 +1,5 @@
 ---
-title: Custom Title B
+title: Custom Title A NEWWWWW
 image: hero1.png
 date: 12-04-2019
 description:

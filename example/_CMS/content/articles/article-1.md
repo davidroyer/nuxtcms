@@ -1,5 +1,5 @@
 ---
-title: Custom Title ba
+title: Custom Title B
 image: hero1.png
 date: 12-04-2019
 description:
@@ -13,7 +13,10 @@ tags:
     - tag 5
 ---
 
-# head
+
+ARTICLE 1
+
+# head 1
 
 [I'm an inline-style link](https://www.google.com)
 <!-- 

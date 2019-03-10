@@ -1,5 +1,5 @@
 ---
-title: Article 2 Title
+title: Article 2 Title new1
 # image: hero1.png
 date: 12-04-2019
 description:
@@ -13,7 +13,7 @@ tags:
     - tag 5
 ---
 
-A
+ARTICLE 2
 
 <!-- ![Image Test](/images/image1.png) -->
 

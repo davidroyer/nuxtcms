@@ -1,7 +1,9 @@
 
 import emoji from 'markdown-it-emoji'
-import { generateRoutes } from '../lib/helpers'
 const { resolve } = require('path')
+const { cmsRoutesGenerator } = require('../')
+// eslint-disable-next-line no-console
+console.log('cmsRoutesGenerator: ', cmsRoutesGenerator)
 
 module.exports = {
   rootDir: resolve(__dirname, '..'),
@@ -22,11 +24,11 @@ module.exports = {
   generate: {
     fallback: true,
     routes: () => {
-      const blogRoutes = generateRoutes(
+      const blogRoutes = cmsRoutesGenerator(
         'articles',
         require(`./static/api/articles`)
       )
-      const projectRoutes = generateRoutes(
+      const projectRoutes = cmsRoutesGenerator(
         'projects',
         require(`./static/api/projects`)
       )

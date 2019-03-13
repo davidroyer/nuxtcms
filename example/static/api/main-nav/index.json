@@ -1,0 +1,14 @@
+{
+  "index": {
+    "to": "/",
+    "label": "Home"
+  },
+  "articles": {
+    "label": "Articles",
+    "to": "/articles"
+  },
+  "projects": {
+    "label": "Projects",
+    "to": "/projects"
+  }
+}

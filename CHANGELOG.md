@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.10"></a>
+## [0.2.10](https://github.com/davidroyer/nuxtcms/compare/v0.2.9...v0.2.10) (2019-03-13)
+
+
+### Bug Fixes
+
+* fixes error when CMS directories dont exist ([8c1acfb](https://github.com/davidroyer/nuxtcms/commit/8c1acfb))
+* fixes error when new content directory is added ([024a24e](https://github.com/davidroyer/nuxtcms/commit/024a24e))
+
+
+
 <a name="0.2.9"></a>
 ## [0.2.9](https://github.com/davidroyer/nuxtcms/compare/v0.2.8...v0.2.9) (2019-03-13)
 

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.8"></a>
+## [0.2.8](https://github.com/davidroyer/nuxtcms/compare/v0.2.7...v0.2.8) (2019-03-13)
+
+
+### Bug Fixes
+
+* fixes error when creating new content type ([cf2b7ea](https://github.com/davidroyer/nuxtcms/commit/cf2b7ea))
+
+
+
 <a name="0.2.7"></a>
 ## [0.2.7](https://github.com/davidroyer/nuxtcms/compare/v0.2.5...v0.2.7) (2019-03-13)
 

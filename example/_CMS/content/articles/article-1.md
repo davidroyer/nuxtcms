@@ -1,5 +1,5 @@
 ---
-title: Custom Title BRANDH NEW 1a
+title: Custom Title 1a
 image: hero1.png
 date: 12-04-2019
 description:

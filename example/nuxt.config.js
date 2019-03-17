@@ -37,10 +37,5 @@ module.exports = {
   },
 
   build: {
-    // analyze: true
-    // or
-    // analyze: {
-    //   analyzerMode: 'static'
-    // }
   }
 }

@@ -18,7 +18,9 @@ tags:
 Something special here! :smile:
 :::
 
-ARTICLE 1f
+# heading 1
+
+## heading 2
 
 # heading 1
 # heading 1

@@ -1,21 +1,33 @@
 ---
-title: Custom Title 1a
-image: hero1.png
+title: Article 1
 date: 12-04-2019
 description:
     Some basic description for this article to use as an excerpt.
-    It should include good info to entice someone to click to read more.
+    It should include good info to entice someones to click to read more.
 tags:
-    - tag 1
-    - tag 2
+    - tag 1a
+    - tag 2a
     - tag 3
     - tag 4
     - tag 5
 ---
 
+## I can't lie. This is amazing!!!
 
-ARTICLE 1
+:::tip
+Something special here! :smile:
+:::
 
+ARTICLE 1f
+
+# heading 1
+
+# heading 2
+
+- item 1
+- item 2
+    - item 1
+- item 3wss
 
 ::: tip
 This is a tip

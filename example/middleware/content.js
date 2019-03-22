@@ -1,8 +1,9 @@
 /* eslint-disable no-console */
 // const contentType = route.name.replace('-slug', '')
 import contentRoutes from '@/static/api/routes/content'
-import { vMutations, vGetters } from '@/plugins/v-store'
-import vStore from '../plugins/v-store'
+// import { vMutations, vGetters } from '@/plugins/v-store'
+
+// import vStore from '../plugins/v-store'
 
 const isContentRoute = (path, contentRoutes) => contentRoutes.some(route => path.includes(route))
 

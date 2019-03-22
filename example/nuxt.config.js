@@ -26,7 +26,7 @@ module.exports = {
   router: {
     middleware: ['content']
   },
-  plugins: ['@/plugins/v-store.js'],
+  // plugins: ['@/plugins/v-store.js'],
   generate: {
     fallback: true,
     routes: () => {

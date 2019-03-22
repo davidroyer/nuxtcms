@@ -1,5 +1,5 @@
 ---
-title: Article 1
+title: Article 1s
 date: 12-04-2019
 description:
     Some basic description for this article to use as an excerpt.
@@ -20,6 +20,10 @@ Something special here! :smile:
 
 ARTICLE 1f
 
+# heading 1
+# heading 1
+# heading 1
+# heading 1
 # heading 1
 
 # heading 2

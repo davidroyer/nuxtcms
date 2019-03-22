@@ -9,9 +9,8 @@
 
 <script>
 export default {
-  asyncData({ $cmsApi }) {
-    const projects = $cmsApi.get('projects')
-    return { projects }
+  asyncData({ $vStore }) {
+    return { projects: $vStore.projects }
   }
 }
 </script>

@@ -9,6 +9,7 @@ module.exports = {
     DEV_MODE: process.env.NODE_ENV !== 'production',
     WS_URL: process.env.WS_URL || 'http://localhost:3000'
   },
+  css: ['@/assets/main.css'],
   rootDir: resolve(__dirname, '..'),
   buildDIr: resolve(__dirname, '.nuxt'),
   srcDir: __dirname,

@@ -80,7 +80,7 @@
       posts: [],
       post: [Array],
       articles: [Array],
-      currentArticle: {}
+      currentContentItem: {}
     },
     '$postTest': [],
     '$getPosts': [Function]
@@ -208,7 +208,7 @@
       posts: [],
       post: [Array],
       articles: [Array],
-      currentArticle: {}
+      currentContentItem: {}
     },
     '$postTest': [],
     '$getPosts': [Function]
@@ -723,7 +723,7 @@
       [Object],
       [Object]
     ],
-    currentArticle: {}
+    currentContentItem: {}
   },
   '$postTest': [],
   '$getPost': [Function],

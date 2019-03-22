@@ -3,10 +3,10 @@
     <nuxt-link v-for="article in $vStore.articles" :key="article.slug" :to="`/articles/${article.slug}`">
       {{ article.title }}
     </nuxt-link>
-    <!-- <pre>{{ $vStore.currentArticle }}</pre> -->
-    <h1 v-text="$vStore.currentArticle.title" />
-    <img v-if="$vStore.currentArticle.image" :src="imagePath">
-    <article v-html="$vStore.currentArticle.html" />
+    <!-- <pre>{{ $vStore.currentContentItem }}</pre> -->
+    <h1 v-text="$vStore.currentContentItem.title" />
+    <img v-if="$vStore.currentContentItem.image" :src="imagePath">
+    <article v-html="$vStore.currentContentItem.html" />
   </div>
 </template>
 
@@ -24,7 +24,7 @@ export default {
 
   //   // const article = $cmsApi.get('articles', params.slug)
   //   return {
-  //     article: $vStore.currentArticle
+  //     article: $vStore.currentContentItem
   //     // post
   //   }
   // },
@@ -35,9 +35,9 @@ export default {
   // },
   head() {
     return {
-      title: this.$vStore.currentArticle.title,
+      title: this.$vStore.currentContentItem.title,
       meta: [
-        { hid: 'description', name: 'description', content: this.$vStore.currentArticle.description || 'Default description here' }
+        { hid: 'description', name: 'description', content: this.$vStore.currentContentItem.description || 'Default description here' }
       ]
     }
   },
@@ -46,7 +46,7 @@ export default {
     //   return this.posts.find(post => post.slug === this.$route.params.slug)
     // },
     imagePath() {
-      return require(`~/assets/${this.$vStore.currentArticle.image}`)
+      return require(`~/assets/${this.$vStore.currentContentItem.image}`)
     }
   }
 

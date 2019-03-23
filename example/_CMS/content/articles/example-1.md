@@ -1,5 +1,7 @@
 __Advertisement :)__
 
+12
+
 - __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
   resize in browser.
 - __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
@@ -9,7 +11,7 @@ You will like those projects!
 
 ---
 
-- item ass
+- item
 - item
 - item 12dsssss
 - item 12dsssss

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>vStore Posts</h2>
-    <!-- <pre>{{ $vStore.currentContentItem }}</pre> -->
+    <pre>{{ $vStore }}</pre>
 
     <br><hr><br>
     <!--

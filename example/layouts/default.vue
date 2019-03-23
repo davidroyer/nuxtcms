@@ -1,7 +1,10 @@
 <template>
   <div>
+    <pre>{{ $vStore.currentContentItem }}</pre>
+
     <Nav />
     <nuxt />
+    <hr>
   </div>
 </template>
 

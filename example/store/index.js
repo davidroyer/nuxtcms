@@ -18,8 +18,8 @@ export const mutations = {
 export const actions = {
 
   nuxtServerInit({ commit, state }, { $cmsApi, isDev }) {
-    commit('setMenu', $cmsApi.get('main-menu'))
-    // commit('setTestFile', $cmsApi.get('file-7'))
+    commit('setMenu', mainMenu)
+    // commit('setMenu', $cmsApi.get('main-menu'))
   }
 
   // setSomeValueToWhatever({ commit }) {
@@ -28,3 +28,18 @@ export const actions = {
   //   commit('changeSomeValue', newValue)
   // }
 }
+
+const mainMenu = [
+  {
+    'label': 'Home',
+    'to': '/'
+  },
+  {
+    'label': 'Articles',
+    'to': '/articles'
+  },
+  {
+    'label': 'Projects',
+    'to': '/projects'
+  }
+]

@@ -10,12 +10,5 @@
 <script>
 export default {
 
-  asyncData({ $content, $cmsApi }) {
-    // console.log('cmsApi: ', $cmsApi)
-
-    // const articles = $content.get('articles')
-    // const articles = $cmsApi.get('articles')
-    // return { articles }
-  }
 }
 </script>

@@ -7,12 +7,8 @@
 
 <script>
 export default {
-  // asyncData({ $cmsApi, params, $vStore }) {
-  //   // const  = $cmsApi.get('s', params.slug)
-  //   const project = $vStore.currentContentItem
-  //   console.log('$vStore.currentContentItem: ', $vStore.currentContentItem)
-
-  //   return { project }
-  // }
+  asyncData({ $getContent, params, $vStore }) {
+    return { project: $getContent('projects', params.slug) }
+  }
 }
 </script>

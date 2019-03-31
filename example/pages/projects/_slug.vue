@@ -1,18 +1,31 @@
 <template>
   <div>
-    <h1 v-text="$vStore.currentContentItem.title" />
-    <div v-html="$vStore.currentContentItem.html" />
+    <h1 v-text="project.title" />
+    <div v-html="project.html" />
+    <!-- <h1 v-text="$vStore.currentContentItem.title" />
+    <div v-html="$vStore.currentContentItem.html" /> -->
   </div>
 </template>
 
 <script>
 export default {
-  // asyncData({ $cmsApi, params, $vStore }) {
-  //   // const  = $cmsApi.get('s', params.slug)
-  //   const project = $vStore.currentContentItem
-  //   console.log('$vStore.currentContentItem: ', $vStore.currentContentItem)
+  // asyncData({ params, $getContent }) {
+  //   return { project: $getContent('projects', params.slug) }
+  // },
 
-  //   return { project }
-  // }
+  computed: {
+    project() {
+      return this.$getContent('projects', this.$route.params.slug)
+    }
+  },
+
+  head() {
+    return {
+      title: this.project.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.project.description || 'Default description here' }
+      ]
+    }
+  }
 }
 </script>

@@ -1,4 +1,18 @@
 /* eslint-disable no-console */
+const mainMenu = [
+  {
+    'label': 'Home',
+    'to': '/'
+  },
+  {
+    'label': 'Articles',
+    'to': '/articles'
+  },
+  {
+    'label': 'Projects',
+    'to': '/projects'
+  }
+]
 export const state = () => ({
   menu: [],
   testFile: {}
@@ -18,7 +32,8 @@ export const mutations = {
 export const actions = {
 
   nuxtServerInit({ commit, state }, { $cmsApi, isDev }) {
-    commit('setMenu', $cmsApi.get('main-menu'))
+    commit('setMenu', mainMenu)
+    // commit('setMenu', $cmsApi.get('main-menu'))
     // commit('setTestFile', $cmsApi.get('file-7'))
   }
 

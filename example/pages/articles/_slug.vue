@@ -3,7 +3,8 @@
     <nuxt-link v-for="article in $vStore.articles" :key="article.slug" :to="`/articles/${article.slug}`">
       {{ article.title }}
     </nuxt-link>
-    <!-- <pre>{{ $vStore.currentContentItem }}</pre> -->
+    <h2>CURRENT ITEM</h2>
+    <pre>{{ $vStore.currentContentItem }}</pre>
     <h1 v-text="$vStore.currentContentItem.title" />
     <img v-if="$vStore.currentContentItem.image" :src="imagePath">
     <article v-html="$vStore.currentContentItem.html" />

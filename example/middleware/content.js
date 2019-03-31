@@ -1,6 +1,12 @@
 /* eslint-disable no-console */
 
-import contentRoutes from '@/static/api/routes/content'
+// import contentRoutes from '@/static/api/routes/content'
+const contentRoutes = [
+  'articles',
+  'collection3',
+  'collection4',
+  'projects'
+]
 const isContentRoute = (path, contentRoutes) => contentRoutes.some(route => path.includes(route))
 
 export default function (context) {

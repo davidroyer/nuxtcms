@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 An h1 headerassssssss
+=======
+An h1 something greate
+
+give it to me!!as
+>>>>>>> 0168201df6d20b1e1bac42389c663f069ffa6dd0
 ============
 as
 ssW
@@ -7,7 +13,7 @@ SS
 2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
 look like:
 
-  * this oneass
+  * this oneassa
   * that one
   * the other onesss
 

@@ -15,20 +15,19 @@
 // import { getPostPromise } from '@/plugins/v-store'
 
 export default {
-  // asyncData({ params, $vStore, $getPost }) {
-  //   // eslint-disable-next-line no-unused-vars
-  //   // const posts = $vStore.posts
-  //   // const post = $vStore.posts.filter(post => post.slug === params.slug)
-  //   // const article = await getPostPromise(params.slug)
-  //   // eslint-disable-next-line no-console
-  //   // console.log('FROM ASYNCDATA promiseData - article: ', article)
+  asyncData({ params, $vStore }) {
+    // eslint-disable-next-line no-unused-vars
+    // const posts = $vStore.posts
+    // const post = $vStore.posts.filter(post => post.slug === params.slug)
+    // const article = await getPostPromise(params.slug)
+    // eslint-disable-next-line no-console
+    // console.log('FROM ASYNCDATA promiseData - article: ', article)
 
-  //   // const article = $cmsApi.get('articles', params.slug)
-  //   return {
-  //     article: $vStore.currentContentItem
-  //     // post
-  //   }
-  // },
+    // const article = $cmsApi.get('articles', params.slug)
+    return {
+      article: $vStore.currentContentItem
+    }
+  },
 
   // data() {
   //   const article = this.$vStore.posts.find(post => post.slug === this.$route.params.slug)

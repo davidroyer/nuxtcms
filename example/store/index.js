@@ -43,3 +43,18 @@ export const actions = {
   //   commit('changeSomeValue', newValue)
   // }
 }
+
+const mainMenu = [
+  {
+    'label': 'Home',
+    'to': '/'
+  },
+  {
+    'label': 'Articles',
+    'to': '/articles'
+  },
+  {
+    'label': 'Projects',
+    'to': '/projects'
+  }
+]

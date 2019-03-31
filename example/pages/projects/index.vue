@@ -9,8 +9,6 @@
 
 <script>
 export default {
-  // asyncData({ $vStore }) {
-  //   return { projects: $vStore.projects }
-  // }
+
 }
 </script>

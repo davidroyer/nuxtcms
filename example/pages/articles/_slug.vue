@@ -1,52 +1,35 @@
 <template>
   <div>
-    <nuxt-link v-for="article in $vStore.articles" :key="article.slug" :to="`/articles/${article.slug}`">
-      {{ article.title }}
+    <nuxt-link v-for="blogArticle in blogArticles" :key="blogArticle.slug" :to="`/articles/${blogArticle.slug}`">
+      {{ blogArticle.title }}
     </nuxt-link>
     <h2>CURRENT ITEM</h2>
-    <pre>{{ $vStore.currentContentItem }}</pre>
-    <h1 v-text="$vStore.currentContentItem.title" />
-    <img v-if="$vStore.currentContentItem.image" :src="imagePath">
-    <article v-html="$vStore.currentContentItem.html" />
+    <pre>{{ article }}</pre>
+    <h1 v-text="article.title" />
+    <img v-if="article.image" :src="imagePath">
+    <article v-html="article.html" />
   </div>
 </template>
 
 <script>
-// import { getPostPromise } from '@/plugins/v-store'
 
 export default {
-  asyncData({ params, $vStore }) {
-    // eslint-disable-next-line no-unused-vars
-    // const posts = $vStore.posts
-    // const post = $vStore.posts.filter(post => post.slug === params.slug)
-    // const article = await getPostPromise(params.slug)
-    // eslint-disable-next-line no-console
-    // console.log('FROM ASYNCDATA promiseData - article: ', article)
+  computed: {
+    article() {
+      // return this.$getContent('articles', this.$route.params.slug)
+      return this.$vStore.currentContentItem
+    },
 
-    // const article = $cmsApi.get('articles', params.slug)
-    return {
-      article: $vStore.currentContentItem
+    imagePath() {
+      return require(`~/assets/${this.article.image}`)
     }
   },
-
-  // data() {
-  //   const article = this.$vStore.posts.find(post => post.slug === this.$route.params.slug)
-  //   return {}
-  // },
   head() {
     return {
-      title: this.$vStore.currentContentItem.title,
+      title: this.article.title,
       meta: [
-        { hid: 'description', name: 'description', content: this.$vStore.currentContentItem.description || 'Default description here' }
+        { hid: 'description', name: 'description', content: this.article.description || 'Default description here' }
       ]
-    }
-  },
-  computed: {
-    // article() {
-    //   return this.posts.find(post => post.slug === this.$route.params.slug)
-    // },
-    imagePath() {
-      return require(`~/assets/${this.$vStore.currentContentItem.image}`)
     }
   }
 

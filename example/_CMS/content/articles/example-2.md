@@ -1,4 +1,4 @@
-An h1 headerassssssss
+An h1 A
 ============
 as
 ssW
@@ -153,10 +153,12 @@ and images can be specified like so:
 
 ![example image](example-image.jpg "An exemplary image")
 
+# HEAD1
+
 Inline math equation: $\omega = d\phi / dt$. Display
 math should get its own line like so:
 
-$$I = \int \rho R^{2} dV$$
+$$I = \int \rho R^{2} sdV$$
 
 And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.

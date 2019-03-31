@@ -1,5 +1,5 @@
 ---
-title: PROJECT 1aass
+title: PROJECT 1
 description:
     My project 1 description
 date: 12-04-2019
@@ -15,7 +15,7 @@ DS
 
 - item 1
 - 2
-    - hi
+    - hias
     - hi
 
 ## heading 2    

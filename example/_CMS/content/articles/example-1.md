@@ -1,10 +1,6 @@
 __Advertisement :)__
 
-<<<<<<< HEAD
 his
-=======
-12
->>>>>>> 0168201df6d20b1e1bac42389c663f069ffa6dd0
 
 - __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
   resize in browser.
@@ -15,11 +11,7 @@ You will like those projects!
 
 ---
 
-<<<<<<< HEAD
 - item asssss
-=======
-- item
->>>>>>> 0168201df6d20b1e1bac42389c663f069ffa6dd0
 - item
 - item 12dsssss
 - item 12dsssss

@@ -9,7 +9,6 @@
 
 <script>
 export default {
-<<<<<<< HEAD
   // asyncData({ params, $getContent }) {
   //   return { project: $getContent('projects', params.slug) }
   // },
@@ -27,10 +26,6 @@ export default {
         { hid: 'description', name: 'description', content: this.project.description || 'Default description here' }
       ]
     }
-=======
-  asyncData({ $getContent, params, $vStore }) {
-    return { project: $getContent('projects', params.slug) }
->>>>>>> 0168201df6d20b1e1bac42389c663f069ffa6dd0
   }
 }
 </script>

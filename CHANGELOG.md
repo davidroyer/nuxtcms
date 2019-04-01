@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/davidroyer/nuxtcms/compare/v0.4.1...v0.5.0) (2019-04-01)
+
+
+### Features
+
+* **generate:** adds automatic route generation ([9f28bd0](https://github.com/davidroyer/nuxtcms/commit/9f28bd0))
+* **tags:** adds tags functionality to content ([18772fc](https://github.com/davidroyer/nuxtcms/commit/18772fc))
+
+
+
 <a name="0.4.1"></a>
 ## [0.4.1](https://github.com/davidroyer/nuxtcms/compare/v0.4.0...v0.4.1) (2019-04-01)
 

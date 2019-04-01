@@ -1,3 +1,9 @@
+---
+tags:
+    - newwww tag
+    - tag 4
+---
+
 __Advertisement :)__
 
 # EXAMPLE 1

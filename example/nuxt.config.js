@@ -21,19 +21,19 @@ module.exports = {
   },
 
   generate: {
-    fallback: true,
-    routes: () => {
-      const blogRoutes = cmsRouteGenerator(
-        'articles',
-        require(`./_API/articles`)
-      )
-      const projectRoutes = cmsRouteGenerator(
-        'projects',
-        require(`./_API/projects`)
-      )
+    fallback: true
+    // routes: () => {
+    //   const blogRoutes = cmsRouteGenerator(
+    //     'articles',
+    //     require(`./_API/articles`)
+    //   )
+    //   const projectRoutes = cmsRouteGenerator(
+    //     'projects',
+    //     require(`./_API/projects`)
+    //   )
 
-      return [...blogRoutes, ...projectRoutes]
-    }
+    //   return [...blogRoutes, ...projectRoutes]
+    // }
   },
 
   build: {

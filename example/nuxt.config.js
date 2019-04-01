@@ -1,7 +1,6 @@
 
 import emoji from 'markdown-it-emoji'
 const { resolve } = require('path')
-const { cmsRouteGenerator } = require('../')
 // eslint-disable-next-line no-console
 
 module.exports = {

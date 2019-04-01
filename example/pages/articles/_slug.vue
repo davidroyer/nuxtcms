@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <nuxt-link v-for="blogArticle in blogArticles" :key="blogArticle.slug" :to="`/articles/${blogArticle.slug}`">
+  <div class="article-wrapper">
+    <nuxt-link v-for="blogArticle in articles" :key="blogArticle.slug" :to="`/articles/${blogArticle.slug}`">
       {{ blogArticle.title }}
     </nuxt-link>
     <h2>CURRENT ITEM</h2>
@@ -37,9 +37,14 @@ export default {
 </script>
 
 <style>
-img {
-  max-width: 800px;
-}
+  img {
+    max-width: 800px;
+  }
+  .article-wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 </style>
 <style src="@@/lib/assets/blog-styles.css"></style>

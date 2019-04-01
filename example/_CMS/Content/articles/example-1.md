@@ -139,10 +139,12 @@ console.log(foo(5));
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
 
-Right aligned columns
+***
+
+Left & Right aligned columns
 
 | Option | Description |
-| ------:| -----------:|
+|:------ | -----------:|
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
@@ -186,23 +188,23 @@ The killer feature of `markdown-it` is very effective support of
 see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
 
 
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+<!-- ### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
 
 - 19^th^
-- H~2~O
+- H~2~O -->
 
 
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+<!-- ### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
 
 ++Inserted text++
 
 
 ### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
 
-==Marked text==
+==Marked text== -->
 
 
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+<!-- ### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
 Footnote 1 link[^first].
 
@@ -216,19 +218,19 @@ Duplicated footnote reference[^second].
 
     and multiple paragraphs.
 
-[^second]: Footnote text.
+[^second]: Footnote text. -->
 
 
 ### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
 
 Term 1
 
-:   Definition 1
+: Definition 1
 with lazy continuation.
 
 Term 2 with *inline markup*
 
-:   Definition 2
+: Definition 2
 
         { some code, part of Definition 2 }
 

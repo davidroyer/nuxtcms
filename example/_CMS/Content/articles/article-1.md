@@ -14,10 +14,16 @@ tags:
 
 aaa
 
+`inline code test`
+
 ## I can't lie. This isss amazing!!!
 
+:::warning
+## Something special here! :computer: :key: :smile: :
+:::
+
 :::tip
-Something special here! :smile: :
+Something special here! :computer: :key: :smile: :
 :::
 
 # heading 1asa

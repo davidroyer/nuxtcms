@@ -5,15 +5,17 @@ const { cmsRouteGenerator } = require('../')
 // eslint-disable-next-line no-console
 
 module.exports = {
-  meta: [
-    {
-      charset: 'utf-8'
-    },
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
-    }
-  ],
+  head: {
+    meta: [
+      {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+      }
+    ]
+  },
   env: {
     DEV_MODE: process.env.NODE_ENV !== 'production',
     WS_URL: process.env.WS_URL || 'http://localhost:3000'

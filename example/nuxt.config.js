@@ -25,11 +25,11 @@ module.exports = {
     routes: () => {
       const blogRoutes = cmsRouteGenerator(
         'articles',
-        require(`./static/api/articles`)
+        require(`./_API/articles`)
       )
       const projectRoutes = cmsRouteGenerator(
         'projects',
-        require(`./static/api/projects`)
+        require(`./_API/projects`)
       )
 
       return [...blogRoutes, ...projectRoutes]

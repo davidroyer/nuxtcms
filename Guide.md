@@ -11,14 +11,14 @@ on it.
 **_Inside `nuxt.config.js`_**
 
 ```js
-const { cmsRouteGenerator } = require("@droyer/nuxtcms/");
+const { cmsRouteGenerator } = require("@droyer/nuxtcms");
 
 export default {
   generate: {
     fallback: true,
     routes: () => {
-      const blogRoutes = cmsRouteGenerator("articles", require(`./static/api/articles`));
-      const projectRoutes = cmsRouteGenerator("projects", require(`./static/api/projects`));
+      const blogRoutes = cmsRouteGenerator("articles", require(`./_API/articles`));
+      const projectRoutes = cmsRouteGenerator("projects", require(`./_API/projects`));
       return [...blogRoutes, ...projectRoutes];
     }
   }

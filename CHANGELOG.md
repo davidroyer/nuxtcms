@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.1"></a>
+## [0.4.1](https://github.com/davidroyer/nuxtcms/compare/v0.4.0...v0.4.1) (2019-04-01)
+
+
+### Bug Fixes
+
+* fixes alias path ([7c06857](https://github.com/davidroyer/nuxtcms/commit/7c06857))
+
+
+
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/davidroyer/nuxtcms/compare/v0.3.2...v0.4.0) (2019-04-01)
+
+
+### Features
+
+* adds \`[@cms](https://github.com/cms)Api\` alias for \`api\` directory ([9656527](https://github.com/davidroyer/nuxtcms/commit/9656527))
+* adds better blog styling ([b0c5198](https://github.com/davidroyer/nuxtcms/commit/b0c5198))
+* adds definition list for markdown ([878e740](https://github.com/davidroyer/nuxtcms/commit/878e740))
+* content directories can now be capitalized ([6998472](https://github.com/davidroyer/nuxtcms/commit/6998472))
+
+
+
+<a name="0.3.2"></a>
+## [0.3.2](https://github.com/davidroyer/nuxtcms/compare/v0.3.1...v0.3.2) (2019-03-17)
+
+
+### Bug Fixes
+
+* **api:** fixes issue of only returning 1 result ([7525cae](https://github.com/davidroyer/nuxtcms/commit/7525cae))
+
+
+
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/davidroyer/nuxtcms/compare/v0.3.0...v0.3.1) (2019-03-14)
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/davidroyer/nuxtcms/compare/v0.2.10...v0.3.0) (2019-03-13)
 

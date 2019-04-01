@@ -16,6 +16,10 @@
 </template>
 
 <script>
+const mainNav = require('@cmsApi/main-nav')
+// eslint-disable-next-line no-console
+console.log('mainNav: ', mainNav)
+
 export default {
   asyncData({ $cmsApi, $articles }) {
     const slug = 'project-1'

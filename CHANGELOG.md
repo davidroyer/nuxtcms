@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.2"></a>
+## [0.5.2](https://github.com/davidroyer/nuxtcms/compare/v0.5.1...v0.5.2) (2019-04-01)
+
+
+### Bug Fixes
+
+* fixes eslint error on release ([9fd5880](https://github.com/davidroyer/nuxtcms/commit/9fd5880))
+
+
+
 <a name="0.5.1"></a>
 ## [0.5.1](https://github.com/davidroyer/nuxtcms/compare/v0.5.0...v0.5.1) (2019-04-01)
 

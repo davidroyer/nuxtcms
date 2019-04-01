@@ -1,5 +1,5 @@
 ---
-title: Article 1 c
+title: Article 1a
 date: 12-04-2019
 description:
     Some basic description for this article to use as aan excerpt.
@@ -12,7 +12,7 @@ tags:
     - tag 5
 ---
 
-# Heading 1 Here!
+# Heading 1!
 
 `inline code test`
 
@@ -26,7 +26,7 @@ tags:
 Something special here! :computer: :key: :smile: :
 :::
 
-# heading 1asa
+# heading 1sss
 
 ## heading 2ssss
 

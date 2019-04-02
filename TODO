@@ -3,5 +3,6 @@ Todo:
   ✔ Optimize atleast a few VSCode settings @done(19-03-13 00:08)
   ✔ Get at least first aspect of Collection class working @done(19-03-13 00:08)
   ☐ Need to relocate generateRoutes helper method
+  ☐ Add mdIt-emoji as built in dependency
   
   

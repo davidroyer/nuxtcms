@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/davidroyer/nuxtcms/compare/v0.5.4...v0.6.0) (2019-04-03)
+
+
+### Features
+
+* **markdown:** attributes can be used now ([e037d8e](https://github.com/davidroyer/nuxtcms/commit/e037d8e))
+* adds ability to use drafts ([2aa33e9](https://github.com/davidroyer/nuxtcms/commit/2aa33e9))
+
+
+
 <a name="0.5.4"></a>
 ## [0.5.4](https://github.com/davidroyer/nuxtcms/compare/v0.5.3...v0.5.4) (2019-04-02)
 

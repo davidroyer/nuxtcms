@@ -11,12 +11,12 @@
 export default {
 
   asyncData({ $content, $cmsApi }) {
-    // const articles = require('@cmsApi/articles')
+    // const articles = require('@cmsApi/blog')
     // eslint-disable-next-line no-console
     // console.log('from require: ', articles)
 
     // const articles = $cmsApi.get('articles')
-    return { articles: require('@cmsApi/articles') }
+    return { articles: require('@cmsApi/blog') }
   }
 }
 </script>

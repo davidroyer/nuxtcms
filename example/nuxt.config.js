@@ -1,5 +1,5 @@
 
-import emoji from 'markdown-it-emoji'
+// import emoji from 'markdown-it-emoji'
 const { resolve } = require('path')
 // eslint-disable-next-line no-console
 
@@ -13,11 +13,11 @@ module.exports = {
   modules: [
     { handler: require('../') }
   ],
-  nuxtcms: {
-    markdownPlugins: [
-      emoji
-    ]
-  },
+  // nuxtcms: {
+  //   markdownPlugins: [
+  //     emoji
+  //   ]
+  // },
 
   generate: {
     fallback: true

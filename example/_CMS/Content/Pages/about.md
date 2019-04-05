@@ -1,4 +1,3 @@
-# Info for the about page from markdown
+## The About page
 
-- item 1
-- item 2
+> Some quote

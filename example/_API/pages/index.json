@@ -3,6 +3,12 @@
     "title": "About",
     "slug": "about",
     "tags": [],
-    "html": "<h1 id=\"info-for-the-about-page-from-markdown\">Info for the about page from markdown</h1>\n<ul>\n<li>item 1</li>\n<li>item 2</li>\n</ul>\n"
+    "html": "<h2 id=\"the-about-page\">The About page</h2>\n<blockquote>\n<p>Some quote</p>\n</blockquote>\n"
+  },
+  "info": {
+    "title": "Info",
+    "slug": "info",
+    "tags": [],
+    "html": "<h2 id=\"the-info-page\">The Info page</h2>\n<blockquote>\n<p>Some quote</p>\n</blockquote>\n"
   }
 }

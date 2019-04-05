@@ -7,6 +7,9 @@
   to: /about
   description: Learn about stuff on this page
   
+- label: Info
+  to: /info
+    
 # - name: articles
 - label: Blog
   to: /blog

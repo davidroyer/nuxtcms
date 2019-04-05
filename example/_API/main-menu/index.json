@@ -10,6 +10,10 @@
     "description": "Learn about stuff on this page"
   },
   {
+    "label": "Info",
+    "to": "/info"
+  },
+  {
     "label": "Blog",
     "to": "/blog"
   },

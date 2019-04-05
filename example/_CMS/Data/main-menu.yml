@@ -2,20 +2,21 @@
 - label: Home
   to: /
 
+- about:
+  label: About
+  to: /about
+  description: Learn about stuff on this page
+  
 # - name: articles
-- label: Articles
-  to: /articles
+- label: Blog
+  to: /blog
 
 # - name: projects
 - label: Projects
   to: /projects
 
 
-# - about:
-#     label: About Use
-#     to: /about
-#     title: false
-#     description: NEW4 Learn more about the people behind Developmint and get to know us before we get to know you!
+
 
 # - contact:
 #     label: Contact

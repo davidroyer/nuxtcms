@@ -3,12 +3,9 @@
     "title": "COURSE 1 TITLE",
     "test": "s",
     "item": "his",
-    "testme": "I am new"
+    "testme": "I am newss"
   },
   "course-2": {
     "title": "Course 2 CHECK1"
-  },
-  "course-3": {
-    "title": "COURSE 3 HERE!"
   }
 }

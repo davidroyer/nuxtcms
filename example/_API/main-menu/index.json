@@ -4,8 +4,14 @@
     "to": "/"
   },
   {
-    "label": "Articles",
-    "to": "/articles"
+    "about": null,
+    "label": "About",
+    "to": "/about",
+    "description": "Learn about stuff on this page"
+  },
+  {
+    "label": "Blog",
+    "to": "/blog"
   },
   {
     "label": "Projects",

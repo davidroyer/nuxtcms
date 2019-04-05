@@ -9,7 +9,7 @@
 <script>
 export default {
   asyncData({ $cmsApi, params }) {
-    const article = $cmsApi.get('articles', params.slug)
+    const article = $cmsApi.get('blog', params.slug)
     return { article }
   },
   head() {

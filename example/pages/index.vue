@@ -19,8 +19,7 @@ export default {
     return {
       articles: $cmsApi.get('blog'),
       courses: $cmsApi.get('courses'),
-      mainMenu: $cmsApi.get('main-menu'),
-      mainNav: $cmsApi.get('main-nav')
+      mainMenu: $cmsApi.get('main-menu')
     }
   }
 }

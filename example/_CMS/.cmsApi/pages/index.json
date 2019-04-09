@@ -1,0 +1,38 @@
+{
+  "about": {
+    "markdown": "about",
+    "content": "Content for the about page goes here",
+    "slug": "about",
+    "title": "About"
+  },
+  "contact-us": {
+    "title": "Get In Touch",
+    "content": "Reach out to use and we will get back as soon as we can.",
+    "slug": "contact-us"
+  },
+  "info": {
+    "content": "Content for the about page goes here",
+    "slug": "info",
+    "title": "Info"
+  },
+  "services": {
+    "hero": {
+      "text": "Headline for our services hero image",
+      "image": "assets/hero1.png"
+    },
+    "services": [
+      {
+        "title": "Service 1C",
+        "description": "Some info about service 1"
+      },
+      {
+        "title": "Service 2s"
+      },
+      {
+        "description": "Some info about service 2bszz"
+      }
+    ],
+    "slug": "services",
+    "title": "Services"
+  }
+}

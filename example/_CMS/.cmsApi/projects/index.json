@@ -1,0 +1,13 @@
+{
+  "project-1": {
+    "info": "Some infoas",
+    "slug": "project-1",
+    "title": "Project 1"
+  },
+  "project-2": {
+    "info": "Project 2",
+    "description": "I am the description for project 2",
+    "slug": "project-2",
+    "title": "Project 2"
+  }
+}

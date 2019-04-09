@@ -2,19 +2,16 @@
 - label: Home
   to: /
 
-- about:
-  label: About
+- label: About
   to: /about
   description: Learn about stuff on this page
   
 - label: Info
   to: /info
     
-# - name: articles
 - label: Blog
   to: /articles
 
-# - name: projects
 - label: Projects
   to: /projects
 

@@ -1,13 +1,6 @@
-# NuxtCMS
+# :package: NuxtCMS
 
-![NuxtCMS Logo](./nuxtcms-logo.png)
-
-<!-- [![npm (scoped with tag)](https://img.shields.io/npm/v/wpapi-js/latest.svg?style=flat-square)](https://npmjs.com/package/wpapi-js)
-[![npm](https://img.shields.io/npm/dt/wpapi-js.svg?style=flat-square)](https://npmjs.com/package/wpapi-js)
-[![CircleCI](https://img.shields.io/circleci/project/github/davidroyer/wpapi-js.svg?style=flat-square)](https://circleci.com/gh/davidroyer/wpapi-js)
-[![Codecov](https://img.shields.io/codecov/c/github/davidroyer/wpapi-js.svg?style=flat-square)](https://codecov.io/gh/davidroyer/wpapi-js)
-[![Dependencies](https://david-dm.org/davidroyer/wpapi-js/status.svg?style=flat-square)](https://david-dm.org/davidroyer/wpapi-js)
-[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com) -->
+![NuxtCMS Logo](./nuxtcms-logo-1200.png)
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -16,10 +9,88 @@
 [![Dependencies][david-dm-src]][david-dm-href]
 [![Standard JS][standard-js-src]][standard-js-href]
 
-
-> CMS for Nuxt.js
+> Nuxt.js module for managing your projects data and content.
 
 [📖 **Release Notes**](./CHANGELOG.md)
+
+## :heavy_check_mark: Features
+
+- :memo: Write content in Markdown
+- :card_file_box: Use YAML for data
+- :lock: Can have drafts for content
+- :mag: easy access to get the content and data you need
+- :label: Automatic tag API creation for any collections that include them in frontmatter
+  <!-- - Easy & Consistent access -->
+
+<br>
+
+## :zap: The Quick Overview
+
+1. :ballot_box_with_check: Everything lives in the `_CMS` directory
+2. Two Directories for storing files
+   - `Content` for Markdown collections
+   - `Data` for Yaml collections and individual files
+3. Everything can be accessed as `JSON` via the `$cmsApi.get()` method
+
+<br>
+
+## Example Directory Structure
+
+```sh
+# INSIDE NUXT SOUCE DIRECTORY
+
+_CMS
+├── Content
+│   ├── Blog
+│   ├── Markdown
+│   └── Pages
+└── Data
+    ├── Courses
+    └── Projects
+    ├── menu.yml
+    └── settings.yml
+```
+
+- Markdown files go inside subdirectories within `Content`
+
+- Directory name of `Blog` is NOT customizable
+
+- YAML files go inside within `Data` as files or inside subdirectories
+
+- Subdirectories inside `Data` are considered "`DataCollections`"
+  This means they will a slug and title will automatically be provided for each
+  item within the collection so they can be used for dynamic route generation
+
+## :page_facing_up: Using Your Content & Data
+
+NuxtCMS provides a helper via `$cmsApi` that is available on the context and instance.
+
+Whether you want all the items within a content type or a specific item, you use the same method, `$cmsApi.get()` to get both content and data. For example:
+
+```js
+const allProjects = $cmsApi.get("projects");
+const specificProject = $cmsApi.get("projects", params.slug);
+```
+
+### Examples
+
+#### All items in a collection
+
+```js
+asyncData({ $cmsApi }) {
+    const articles = $cmsApi.get('articles')
+    return { articles }
+}
+```
+
+#### A specific item
+
+```js
+asyncData({ $cmsApi, params }) {
+    const article = $cmsApi.get('articles', params.slug)
+    return { article }
+}
+```
 
 ## Setup
 
@@ -31,14 +102,24 @@
 {
   modules: [
     // Simple usage
-    'nuxtcms',
+    "nuxtcms",
 
     // With options
-    ['nuxtcms', { /* module options */ }],
- ]
+    [
+      "nuxtcms",
+      {
+        /* module options */
+      }
+    ]
+  ];
 }
 ```
 
+## Options
+
+The **Options go here**
+
+<br>
 
 ## Development
 
@@ -53,6 +134,7 @@
 Copyright (c) David Royer <droyer01@gmail.com>
 
 <!-- Badges -->
+
 [npm-version-src]: https://img.shields.io/npm/dt/@droyer/nuxtcms.svg?style=flat-square
 [npm-version-href]: https://npmjs.com/package/@droyer/nuxtcms
 [npm-downloads-src]: https://img.shields.io/npm/v/@droyer/nuxtcms/latest.svg?style=flat-square

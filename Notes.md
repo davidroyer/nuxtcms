@@ -15,6 +15,7 @@
 ---
 
 - Markdown files go inside subdirectories within `Content`
+
 - Directory name of `Blog` is NOT customizable
 
 - YAML files go inside within `Data` as files or inside subdirectories

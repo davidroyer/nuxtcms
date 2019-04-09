@@ -64,6 +64,7 @@
     "nuxt-edge": "latest",
     "request": "latest",
     "request-promise-native": "latest",
-    "standard-version": "latest"
+    "standard-version": "latest",
+    "tree-node-cli": "^1.2.5"
   }
 }

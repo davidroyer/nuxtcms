@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 v-text="project.title" />
-    <div v-html="project.html" />
+    <pre>{{ project }}</pre>
   </div>
 </template>
 

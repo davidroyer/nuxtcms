@@ -1,5 +1,5 @@
 ---
-title: Article EXAMPLE 2aa
+title: Article EXAMPLE 2asss
 date: 12-04-2019
 description:
     Some basic description for this article to use as aan excerpt.
@@ -11,7 +11,7 @@ tags:
     - tag 4
 ---
 
-# Heading 1!
+# Heading 1!s
 
 # header {.style-me}
 paragraph {data-toggle=modal}

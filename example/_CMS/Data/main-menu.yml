@@ -12,7 +12,7 @@
     
 # - name: articles
 - label: Blog
-  to: /blog
+  to: /articles
 
 # - name: projects
 - label: Projects

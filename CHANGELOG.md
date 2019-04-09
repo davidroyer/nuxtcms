@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.8.0"></a>
+# [0.8.0](https://github.com/davidroyer/nuxtcms/compare/v0.7.0...v0.8.0) (2019-04-09)
+
+
+### Features
+
+* adds slug and title to dataCollections ([b7a7fe4](https://github.com/davidroyer/nuxtcms/commit/b7a7fe4))
+* **generate:** adds custom blog route ([48d3a18](https://github.com/davidroyer/nuxtcms/commit/48d3a18))
+
+
+
 <a name="0.7.0"></a>
 # [0.7.0](https://github.com/davidroyer/nuxtcms/compare/v0.6.0...v0.7.0) (2019-04-05)
 

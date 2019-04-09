@@ -13,11 +13,9 @@ module.exports = {
   modules: [
     { handler: require('../') }
   ],
-  // nuxtcms: {
-  //   markdownPlugins: [
-  //     emoji
-  //   ]
-  // },
+  nuxtcms: {
+    blogRoute: 'articles'
+  },
 
   generate: {
     fallback: true

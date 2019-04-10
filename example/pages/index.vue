@@ -11,8 +11,7 @@ export default {
   asyncData({ $cmsApi, $articles }) {
     return {
       articles: $cmsApi.get('blog'),
-      services: $cmsApi.get('pages', 'services'),
-      mainMenu: $cmsApi.get('nav-menu')
+      pages: $cmsApi.get('pages')
     }
   }
 }

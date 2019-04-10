@@ -1,6 +1,9 @@
 # :package: NuxtCMS
 
-![NuxtCMS Logo](./nuxtcms-logo-1200.png)
+<div style="width: 680px; margin-left: auto; margin-right: auto;">
+
+  ![NuxtCMS Logo](./nuxtcms-logo-1200.png)
+</div>
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]

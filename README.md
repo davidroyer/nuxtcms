@@ -22,9 +22,9 @@
 
 - :card_file_box: Use YAML for data
 
-- :lock: Can have drafts for content
+- :lock: Can set content collection items to draft
 
-- :mag: easy access to get the content and data you need
+- :mag: Easy access to get the content and data you need
 
 - :label: Automatic tag API creation for any collections that include them in frontmatter
   <!-- - Easy & Consistent access -->
@@ -42,6 +42,71 @@
 <br>
 
 ## Example Directory Structure
+
+### The entire exanple app structure
+
+```sh
+example
+├── _CMS
+│   ├── Content
+│   │   ├── Blog
+│   │   │   ├── example-1.md
+│   │   │   ├── example-2.md
+│   │   │   └── example-draft.md
+│   │   ├── Markdown
+│   │   │   ├── example-a.md
+│   │   │   └── example-b.md
+│   │   └── Pages
+│   │       ├── page-1.yml
+│   │       └── page-2.yml
+│   └── Data
+│       ├── Projects
+│       │   ├── project-1.yml
+│       │   └── project-2.yml
+│       ├── data-file-example.yml
+│       └── nav-menu.yml
+├── assets
+├── components
+├── layouts
+├── pages
+│   ├── articles
+│   │   ├── _slug.vue
+│   │   └── index.vue
+│   ├── projects
+│   │   ├── _slug.vue
+│   │   └── index.vue
+│   ├── _slug.vue
+│   └── index.vue
+├── store
+└── nuxt.config.js
+```
+
+```sh
+# THE Content DIRECTORY -INSIDE _CMS DIRECTORY
+
+Content
+├── Blog
+│   ├── example-1.md
+│   ├── example-2.md
+│   └── example-draft.md
+├── Markdown
+│   ├── example-a.md
+│   └── example-b.md
+└── Pages
+    ├── page-1.yml
+    └── page-2.yml
+```
+
+```sh
+# THE Data DIRECTORY - INSIDE _CMS DIRECTORY
+
+Data
+├── Projects
+│   ├── project-1.yml
+│   └── project-2.yml
+├── data-file-example.yml
+└── nav-menu.yml
+```
 
 ```sh
 # INSIDE NUXT SOUCE DIRECTORY

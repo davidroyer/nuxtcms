@@ -1,8 +1,0 @@
-{
-  "example": "HTML goes into YAML without modification\n",
-  "message": "\n<blockquote style=\"font: italic 12pt Times\">\n<p>\"Three is always greater than two,\n   even for large values of two\"</p>\n<p>--Author Unknown</p>\n</blockquote>\n",
-  "date": "2007-06-01T00:00:00.000Z",
-  "data": "Wrapped text will be folded into a single paragraph\nBlank lines denote paragraph breaks\n",
-  "specialDelivery": "Follow the Yellow Brick Road to the Emerald City. Pay no attention to the man behind the curtain.\n",
-  "data2": "There once was a tall man from Ealing\nWho got on a bus to Darjeeling\n    It said on the door\n    \"Please don't sit on the floor\"\nSo he carefully sat on the ceiling\n"
-}

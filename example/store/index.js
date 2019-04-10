@@ -1,17 +1,12 @@
 /* eslint-disable no-console */
 export const state = () => ({
   menu: [],
-  testFile: {}
+  dataFileExample: {}
 })
 
 export const mutations = {
-  // changeSomeValue(state, newValue) {
-  //   this.$myInjectedFunction('accessible in mutations')
-  //   state.someValue = newValue
-  // },
-
   setMenu: (state, payload) => (state.menu = payload),
-  setTestFile: (state, payload) => (state.testFile = payload)
+  setDataFileExample: (state, payload) => (state.dataFileExample = payload)
 
 }
 
@@ -19,12 +14,8 @@ export const actions = {
 
   nuxtServerInit({ commit, state }, { $cmsApi, isDev }) {
     commit('setMenu', $cmsApi.get('nav-menu'))
-    // commit('setTestFile', $cmsApi.get('file-7'))
-  }
+    console.log('DATA FILE: ', $cmsApi.get('data-file-example'))
 
-  // setSomeValueToWhatever({ commit }) {
-  //   this.$myInjectedFunction('accessible in actions')
-  //   const newValue = 'whatever'
-  //   commit('changeSomeValue', newValue)
-  // }
+    commit('setDataFileExample', $cmsApi.get('data-file-example'))
+  }
 }

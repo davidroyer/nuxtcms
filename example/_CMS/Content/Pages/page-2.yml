@@ -2,10 +2,15 @@ hero:
   text: Headline for our services hero image
   image: assets/hero1.png
 
-services:
-  - title: Service 1C
+content:
+  Content for page-2 goes here
+
+servicesOptions:
+  - title: Service 1
     description: Some info about service 1
 
-  - title: Service 2s
+  - title: Service 2
   - description: Some info about service 2bszz
+
+
 

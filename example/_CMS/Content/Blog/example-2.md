@@ -1,19 +1,18 @@
 ---
-title: Article EXAMPLE
+title: Example 2 Custom Title
 date: 12-04-2019
 description:
     Some basic description for this article to use as aan excerpt.
     It should include good info to entice someones to click to read more.
 tags:
-    - tag 1aa
-    - tag 2aa
+    - tag 1
+    - tag 2
     - tag 3
     - tag 4
 ---
 
-# Heading 1
+## Header With Class {.style-me}
 
-# header {.style-me}
 paragraph {data-toggle=modal}
 
 `inline code test`
@@ -21,7 +20,7 @@ paragraph {data-toggle=modal}
 ## I can't lie. This isss amazing!!!
 
 :::warning
-## Something special here! :computer: :key: :smile: :
+Something special here! :computer: :key: :smile: :
 :::
 
 :::tip

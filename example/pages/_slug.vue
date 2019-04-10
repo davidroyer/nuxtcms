@@ -12,7 +12,7 @@
 export default {
   asyncData({ $cmsApi, route, params }) {
     const page = $cmsApi.get('pages', params.slug)
-    if (page.markdown) page.md = $cmsApi.get('markdown', page.markdown)
+    if (page.importMdFile) page.md = $cmsApi.get('markdown', page.importMdFile)
     return { page }
   }
 }

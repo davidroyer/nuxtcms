@@ -1,7 +1,7 @@
 example: >
   HTML goes into YAML without modification
-message: |
 
+message: |
   <blockquote style="font: italic 12pt Times">
   <p>"Three is always greater than two,
      even for large values of two"</p>
@@ -25,8 +25,8 @@ specialDelivery: >
   man behind the curtain.
 
 data2: |
-   There once was a tall man from Ealing
-   Who got on a bus to Darjeeling
-       It said on the door
-       "Please don't sit on the floor"
-   So he carefully sat on the ceiling
+  There once was a tall man from Ealing
+  Who got on a bus to Darjeeling
+      It said on the door
+      "Please don't sit on the floor"
+  So he carefully sat on the ceiling

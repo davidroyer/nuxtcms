@@ -12,6 +12,7 @@ export default {
     const article = $cmsApi.get('blog', params.slug)
     return { article }
   },
+
   head() {
     return {
       title: this.article.title,
@@ -20,6 +21,7 @@ export default {
       ]
     }
   },
+
   computed: {
     imagePath() {
       return require(`~/assets/${this.article.image}`)

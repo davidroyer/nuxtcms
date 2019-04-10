@@ -4,11 +4,6 @@ tags:
     - tag 4
 ---
 
-__Advertisement :)__
-
-# EXAMPLE 1
-# EXAMPLE 1
-
 ::: warning
 *here be dragons*
 :::
@@ -30,12 +25,6 @@ You will like those projects!
   - item abde
 - item
 
-# h1 Heading 8-) sS
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
 
 
 ## Horizontal Rules
@@ -100,8 +89,8 @@ Ordered
 3. Integer molestie lorem at massa
 
 
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
+4. You can use sequential numbers...
+5. ...or keep all the numbers as `1.`
 
 Start numbering with offset:
 

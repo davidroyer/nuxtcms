@@ -10,5 +10,17 @@
     "slug": "info",
     "tags": [],
     "html": "<h2 id=\"the-info-page\">The Info page</h2>\n<blockquote>\n<p>Some quote</p>\n</blockquote>\n"
+  },
+  "page-a": {
+    "title": "Page A",
+    "slug": "page-a",
+    "tags": [],
+    "html": "<h2 id=\"page-a\">Page A</h2>\n<p>This page is from a Markdown file</p>\n<blockquote>\n<p>Some quote</p>\n</blockquote>\n"
+  },
+  "page-b": {
+    "title": "Page B",
+    "slug": "page-b",
+    "tags": [],
+    "html": "<h2 id=\"page-b\">Page B</h2>\n<p>This page is from a Markdown file</p>\n<blockquote>\n<p>Another quote</p>\n</blockquote>\n"
   }
 }

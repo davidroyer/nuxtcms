@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Home",
+    "to": "/"
+  },
+  {
+    "label": "About",
+    "to": "/about",
+    "description": "Learn about stuff on this page"
+  },
+  {
+    "label": "Info",
+    "to": "/info"
+  },
+  {
+    "label": "Blog",
+    "to": "/articles"
+  },
+  {
+    "label": "Projects",
+    "to": "/projects"
+  }
+]

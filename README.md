@@ -16,9 +16,13 @@
 ## :heavy_check_mark: Features
 
 - :memo: Write content in Markdown
+
 - :card_file_box: Use YAML for data
+
 - :lock: Can have drafts for content
+
 - :mag: easy access to get the content and data you need
+
 - :label: Automatic tag API creation for any collections that include them in frontmatter
   <!-- - Easy & Consistent access -->
 

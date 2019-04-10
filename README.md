@@ -78,7 +78,9 @@ const specificProject = $cmsApi.get("projects", params.slug);
 
 ### Examples
 
-#### All items in a collection
+#### In A Page Route
+
+_Getting All Items Within a Data or Content Collection_
 
 ```js
 asyncData({ $cmsApi }) {
@@ -87,13 +89,40 @@ asyncData({ $cmsApi }) {
 }
 ```
 
-#### A specific item
+#### In A Dynamic Page Route
+
+*Get An Item Within a Data or Content Collection*
 
 ```js
 asyncData({ $cmsApi, params }) {
     const article = $cmsApi.get('articles', params.slug)
     return { article }
 }
+```
+
+#### Within Vuex Store
+
+```js
+nuxtServerInit({ commit }, { $cmsApi }) {
+  commit('setDataFileExample', $cmsApi.get('data-file-example'))
+}
+```
+
+#### Within A Component
+
+```jsx
+computed: {
+  nav() {
+    return this.$cmsApi.get('nav-menu')
+  }
+}
+```
+
+## Using Provided Blog Styles
+
+```html
+<style src="@@/lib/assets/blog-styles.css"></style>
+<style src="@@/node_modules/prismjs/themes/prism-tomorrow.css">
 ```
 
 ## Setup

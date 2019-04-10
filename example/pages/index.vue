@@ -2,8 +2,8 @@
   <div>
     <h2>Main Menu</h2>
     <pre>{{ mainMenu }}</pre>
-    <h2>Courses</h2>
-    <pre>{{ courses }}</pre>
+    <h2>projects</h2>
+    <pre>{{ projects }}</pre>
     <br><hr><br>
 
     <h2>Articles</h2>
@@ -18,8 +18,8 @@ export default {
   asyncData({ $cmsApi, $articles }) {
     return {
       articles: $cmsApi.get('blog'),
-      courses: $cmsApi.get('courses'),
-      mainMenu: $cmsApi.get('main-menu')
+      projects: $cmsApi.get('projects'),
+      mainMenu: $cmsApi.get('nav-menu')
     }
   }
 }

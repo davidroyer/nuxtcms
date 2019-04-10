@@ -18,7 +18,7 @@ export const mutations = {
 export const actions = {
 
   nuxtServerInit({ commit, state }, { $cmsApi, isDev }) {
-    commit('setMenu', $cmsApi.get('main-menu'))
+    commit('setMenu', $cmsApi.get('nav-menu'))
     // commit('setTestFile', $cmsApi.get('file-7'))
   }
 

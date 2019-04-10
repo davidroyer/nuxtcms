@@ -10,7 +10,7 @@
 export default {
   computed: {
     nav() {
-      return this.$cmsApi.get('main-menu')
+      return this.$cmsApi.get('nav-menu')
     }
   }
 }

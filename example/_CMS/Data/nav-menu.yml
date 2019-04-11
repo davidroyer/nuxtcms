@@ -10,7 +10,7 @@
   to: /page-2
 
 - label: Blog
-  to: /articles
+  to: /blog
 
 - label: Projects
   to: /projects

@@ -14,7 +14,7 @@ module.exports = {
     { handler: require('../') }
   ],
   nuxtcms: {
-    blogRoute: 'articles'
+    // blogRoute: 'articles'
   },
 
   generate: {

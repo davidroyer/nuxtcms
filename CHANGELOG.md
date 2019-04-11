@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.8.7"></a>
+## [0.8.7](https://github.com/davidroyer/nuxtcms/compare/v0.8.6...v0.8.7) (2019-04-11)
+
+
+### Bug Fixes
+
+* attempts to fix tags error on generate ([f9c53b0](https://github.com/davidroyer/nuxtcms/commit/f9c53b0))
+
+
+
 <a name="0.8.6"></a>
 ## [0.8.6](https://github.com/davidroyer/nuxtcms/compare/v0.8.5...v0.8.6) (2019-04-11)
 

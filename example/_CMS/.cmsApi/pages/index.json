@@ -1,0 +1,29 @@
+{
+  "page-1": {
+    "importMdFile": "example-a",
+    "content": "Content for page-2 goes here",
+    "slug": "page-1",
+    "title": "Page 1"
+  },
+  "page-2": {
+    "hero": {
+      "text": "Headline for our services hero image",
+      "image": "assets/hero1.png"
+    },
+    "content": "Content for page-2 goes here",
+    "servicesOptions": [
+      {
+        "title": "Service 1",
+        "description": "Some info about service 1"
+      },
+      {
+        "title": "Service 2"
+      },
+      {
+        "description": "Some info about service 2bszz"
+      }
+    ],
+    "slug": "page-2",
+    "title": "Page 2"
+  }
+}

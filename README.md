@@ -14,6 +14,17 @@
 
 > Nuxt.js module for managing your projects data and content.
 
+## NuxtCMS Demo
+
+<a target="_blank" rel="noopener" href="https://github.com/davidroyer/nuxtcms-demo">Github Repo</a> | <a target="_blank" rel="noopener" href="https://github.com/davidroyer/nuxtcms-demo">Github Repo</a>
+
+<div style="width: 680px; margin-left: auto; margin-right: auto;">
+
+  ![NuxtCMS Logo](./demo-600.gif)
+</div>
+
+
+
 [📖 **Release Notes**](./CHANGELOG.md)
 
 ## :heavy_check_mark: Features

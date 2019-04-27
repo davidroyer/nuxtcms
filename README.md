@@ -16,7 +16,7 @@
 
 ## NuxtCMS Demo
 
-<a target="_blank" rel="noopener" href="https://github.com/davidroyer/nuxtcms-demo">Github Repo</a> | <a target="_blank" rel="noopener" href="https://github.com/davidroyer/nuxtcms-demo">Github Repo</a>
+<a target="_blank" rel="noopener" href="https://github.com/davidroyer/nuxtcms-demo">Github Repo</a> | <a target="_blank" rel="noopener" href="https://nuxtcms-demo.netlify.com/">Live Site</a>
 
 <div style="width: 680px; margin-left: auto; margin-right: auto;">
 

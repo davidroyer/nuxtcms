@@ -111,6 +111,11 @@ article kbd {
   color: #2c3e50;
 }
 
+.custom-block p {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
 /* Tables */
 table {
   border-collapse: collapse;

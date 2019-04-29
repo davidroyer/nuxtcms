@@ -6,7 +6,7 @@ const request = require('request-promise-native')
 const getPort = require('get-port')
 
 const config = require('../example/nuxt.config')
-config.dev = false
+// config.dev = false
 
 let nuxt, port
 

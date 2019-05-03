@@ -1,76 +1,308 @@
 {
-  "newwww tag": [
-    {
-      "title": "Example 1",
-      "slug": "example-1",
-      "tags": [
-        "newwww tag",
-        "tag 4"
-      ]
-    }
-  ],
-  "tag 4": [
-    {
-      "title": "Example 1",
-      "slug": "example-1",
-      "tags": [
-        "newwww tag",
-        "tag 4"
-      ]
-    },
-    {
-      "title": "Example 2 Custom Title",
-      "slug": "example-2",
-      "tags": [
-        "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
-      ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
-    }
-  ],
-  "tag 1": [
-    {
-      "title": "Example 2 Custom Title",
-      "slug": "example-2",
-      "tags": [
-        "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
-      ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
-    }
-  ],
-  "tag 2": [
-    {
-      "title": "Example 2 Custom Title",
-      "slug": "example-2",
-      "tags": [
-        "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
-      ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
-    }
-  ],
-  "tag 3": [
-    {
-      "title": "Example 2 Custom Title",
-      "slug": "example-2",
-      "tags": [
-        "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
-      ],
-      "date": "12-04-2019",
-      "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more."
-    }
-  ]
+  "newwww-tag": {
+    "name": "newwww tag",
+    "slug": "newwww-tag",
+    "title": "Newwww tag",
+    "posts": [
+      {
+        "tags": [
+          "newwww tag",
+          "tag 4",
+          "tag 5",
+          "tag 1"
+        ],
+        "tagsData": [
+          {
+            "name": "newwww tag",
+            "slug": "newwww-tag",
+            "title": "Newwww tag"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          },
+          {
+            "name": "tag 5",
+            "slug": "tag-5",
+            "title": "Tag 5"
+          },
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          }
+        ],
+        "title": "Example 1",
+        "slug": "example-1"
+      }
+    ]
+  },
+  "tag-4": {
+    "name": "tag 4",
+    "slug": "tag-4",
+    "title": "Tag 4",
+    "posts": [
+      {
+        "tags": [
+          "newwww tag",
+          "tag 4",
+          "tag 5",
+          "tag 1"
+        ],
+        "tagsData": [
+          {
+            "name": "newwww tag",
+            "slug": "newwww-tag",
+            "title": "Newwww tag"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          },
+          {
+            "name": "tag 5",
+            "slug": "tag-5",
+            "title": "Tag 5"
+          },
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          }
+        ],
+        "title": "Example 1",
+        "slug": "example-1"
+      },
+      {
+        "title": "Example 2 Custom Title",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more.",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "tagsData": [
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          },
+          {
+            "name": "tag 2",
+            "slug": "tag-2",
+            "title": "Tag 2"
+          },
+          {
+            "name": "tag 3",
+            "slug": "tag-3",
+            "title": "Tag 3"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          }
+        ],
+        "slug": "example-2"
+      }
+    ]
+  },
+  "tag-5": {
+    "name": "tag 5",
+    "slug": "tag-5",
+    "title": "Tag 5",
+    "posts": [
+      {
+        "tags": [
+          "newwww tag",
+          "tag 4",
+          "tag 5",
+          "tag 1"
+        ],
+        "tagsData": [
+          {
+            "name": "newwww tag",
+            "slug": "newwww-tag",
+            "title": "Newwww tag"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          },
+          {
+            "name": "tag 5",
+            "slug": "tag-5",
+            "title": "Tag 5"
+          },
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          }
+        ],
+        "title": "Example 1",
+        "slug": "example-1"
+      }
+    ]
+  },
+  "tag-1": {
+    "name": "tag 1",
+    "slug": "tag-1",
+    "title": "Tag 1",
+    "posts": [
+      {
+        "tags": [
+          "newwww tag",
+          "tag 4",
+          "tag 5",
+          "tag 1"
+        ],
+        "tagsData": [
+          {
+            "name": "newwww tag",
+            "slug": "newwww-tag",
+            "title": "Newwww tag"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          },
+          {
+            "name": "tag 5",
+            "slug": "tag-5",
+            "title": "Tag 5"
+          },
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          }
+        ],
+        "title": "Example 1",
+        "slug": "example-1"
+      },
+      {
+        "title": "Example 2 Custom Title",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more.",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "tagsData": [
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          },
+          {
+            "name": "tag 2",
+            "slug": "tag-2",
+            "title": "Tag 2"
+          },
+          {
+            "name": "tag 3",
+            "slug": "tag-3",
+            "title": "Tag 3"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          }
+        ],
+        "slug": "example-2"
+      }
+    ]
+  },
+  "tag-2": {
+    "name": "tag 2",
+    "slug": "tag-2",
+    "title": "Tag 2",
+    "posts": [
+      {
+        "title": "Example 2 Custom Title",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more.",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "tagsData": [
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          },
+          {
+            "name": "tag 2",
+            "slug": "tag-2",
+            "title": "Tag 2"
+          },
+          {
+            "name": "tag 3",
+            "slug": "tag-3",
+            "title": "Tag 3"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          }
+        ],
+        "slug": "example-2"
+      }
+    ]
+  },
+  "tag-3": {
+    "name": "tag 3",
+    "slug": "tag-3",
+    "title": "Tag 3",
+    "posts": [
+      {
+        "title": "Example 2 Custom Title",
+        "date": "12-04-2019",
+        "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more.",
+        "tags": [
+          "tag 1",
+          "tag 2",
+          "tag 3",
+          "tag 4"
+        ],
+        "tagsData": [
+          {
+            "name": "tag 1",
+            "slug": "tag-1",
+            "title": "Tag 1"
+          },
+          {
+            "name": "tag 2",
+            "slug": "tag-2",
+            "title": "Tag 2"
+          },
+          {
+            "name": "tag 3",
+            "slug": "tag-3",
+            "title": "Tag 3"
+          },
+          {
+            "name": "tag 4",
+            "slug": "tag-4",
+            "title": "Tag 4"
+          }
+        ],
+        "slug": "example-2"
+      }
+    ]
+  }
 }

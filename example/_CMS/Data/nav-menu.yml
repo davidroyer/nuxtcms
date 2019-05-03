@@ -12,5 +12,8 @@
 - label: Blog
   to: /blog
 
+- label: Blog Topics
+  to: /tags
+
 - label: Projects
   to: /projects

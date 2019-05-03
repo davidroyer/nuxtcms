@@ -1,6 +1,14 @@
 <template>
   <div>
     <h1 v-text="article.title" />
+    <div v-if="article.tags" class="article-tags">
+      <div v-for="tag in article.tagsData" :key="tag.slug" class="article-tag">
+        <nuxt-link :to="`/tags/${tag.slug}`">
+          <small v-text="tag.title" />
+        </nuxt-link>
+      </div>
+    </div>
+
     <img v-if="article.image" :src="imagePath">
     <article v-html="article.html" />
   </div>
@@ -8,6 +16,12 @@
 
 <script>
 export default {
+
+  computed: {
+    imagePath() {
+      return require(`~/assets/${this.article.image}`)
+    }
+  },
   asyncData({ $cmsApi, params }) {
     const article = $cmsApi.get('blog', params.slug)
     return { article }
@@ -19,12 +33,6 @@ export default {
       meta: [
         { hid: 'description', name: 'description', content: this.article.description || 'Default description here' }
       ]
-    }
-  },
-
-  computed: {
-    imagePath() {
-      return require(`~/assets/${this.article.image}`)
     }
   }
 }

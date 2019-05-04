@@ -1,0 +1,23 @@
+{
+  "arraylist": {
+    "name": "arrayList",
+    "slug": "arraylist",
+    "title": "Arraylist",
+    "posts": [
+      {
+        "title": "Example A",
+        "slug": "example-a",
+        "tags": {
+          "arrayList": []
+        }
+      },
+      {
+        "title": "Example B",
+        "slug": "example-b",
+        "tags": {
+          "arrayList": []
+        }
+      }
+    ]
+  }
+}

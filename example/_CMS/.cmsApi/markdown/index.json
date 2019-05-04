@@ -1,16 +1,18 @@
 {
   "example-a": {
-    "tagsData": [],
     "title": "Example A",
     "slug": "example-a",
-    "tags": [],
+    "tags": {
+      "arrayList": []
+    },
     "html": "<h1 id=\"i-am-example-a\">I am example A</h1>\n"
   },
   "example-b": {
-    "tagsData": [],
     "title": "Example B",
     "slug": "example-b",
-    "tags": [],
+    "tags": {
+      "arrayList": []
+    },
     "html": "<h1 id=\"i-am-example-b\">I am example B</h1>\n"
   }
 }

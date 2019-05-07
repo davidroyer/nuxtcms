@@ -25,13 +25,7 @@
             "name": "tag 1",
             "slug": "tag-1",
             "title": "Tag 1"
-          },
-          "arrayList": [
-            "newwww tag",
-            "tag 4",
-            "tag 5",
-            "tag 1"
-          ]
+          }
         },
         "title": "Example 1",
         "slug": "example-1"
@@ -64,13 +58,7 @@
             "name": "tag 1",
             "slug": "tag-1",
             "title": "Tag 1"
-          },
-          "arrayList": [
-            "newwww tag",
-            "tag 4",
-            "tag 5",
-            "tag 1"
-          ]
+          }
         },
         "title": "Example 1",
         "slug": "example-1"
@@ -99,13 +87,7 @@
             "name": "tag 4",
             "slug": "tag-4",
             "title": "Tag 4"
-          },
-          "arrayList": [
-            "tag 1",
-            "tag 2",
-            "tag 3",
-            "tag 4"
-          ]
+          }
         },
         "slug": "example-2"
       }
@@ -137,13 +119,7 @@
             "name": "tag 1",
             "slug": "tag-1",
             "title": "Tag 1"
-          },
-          "arrayList": [
-            "newwww tag",
-            "tag 4",
-            "tag 5",
-            "tag 1"
-          ]
+          }
         },
         "title": "Example 1",
         "slug": "example-1"
@@ -176,13 +152,7 @@
             "name": "tag 1",
             "slug": "tag-1",
             "title": "Tag 1"
-          },
-          "arrayList": [
-            "newwww tag",
-            "tag 4",
-            "tag 5",
-            "tag 1"
-          ]
+          }
         },
         "title": "Example 1",
         "slug": "example-1"
@@ -211,96 +181,9 @@
             "name": "tag 4",
             "slug": "tag-4",
             "title": "Tag 4"
-          },
-          "arrayList": [
-            "tag 1",
-            "tag 2",
-            "tag 3",
-            "tag 4"
-          ]
+          }
         },
         "slug": "example-2"
-      }
-    ]
-  },
-  "arraylist": {
-    "name": "arrayList",
-    "slug": "arraylist",
-    "title": "Arraylist",
-    "posts": [
-      {
-        "tags": {
-          "newwww-tag": {
-            "name": "newwww tag",
-            "slug": "newwww-tag",
-            "title": "Newwww tag"
-          },
-          "tag-4": {
-            "name": "tag 4",
-            "slug": "tag-4",
-            "title": "Tag 4"
-          },
-          "tag-5": {
-            "name": "tag 5",
-            "slug": "tag-5",
-            "title": "Tag 5"
-          },
-          "tag-1": {
-            "name": "tag 1",
-            "slug": "tag-1",
-            "title": "Tag 1"
-          },
-          "arrayList": [
-            "newwww tag",
-            "tag 4",
-            "tag 5",
-            "tag 1"
-          ]
-        },
-        "title": "Example 1",
-        "slug": "example-1"
-      },
-      {
-        "title": "Example 2 Custom Title",
-        "date": "12-04-2019",
-        "description": "Some basic description for this article to use as aan excerpt. It should include good info to entice someones to click to read more.",
-        "tags": {
-          "tag-1": {
-            "name": "tag 1",
-            "slug": "tag-1",
-            "title": "Tag 1"
-          },
-          "tag-2": {
-            "name": "tag 2",
-            "slug": "tag-2",
-            "title": "Tag 2"
-          },
-          "tag-3": {
-            "name": "tag 3",
-            "slug": "tag-3",
-            "title": "Tag 3"
-          },
-          "tag-4": {
-            "name": "tag 4",
-            "slug": "tag-4",
-            "title": "Tag 4"
-          },
-          "arrayList": [
-            "tag 1",
-            "tag 2",
-            "tag 3",
-            "tag 4"
-          ]
-        },
-        "slug": "example-2"
-      },
-      {
-        "title": "My Draft Test Article",
-        "draft": true,
-        "slug": "example-draft",
-        "tags": {
-          "arrayList": []
-        }
       }
     ]
   },
@@ -333,13 +216,7 @@
             "name": "tag 4",
             "slug": "tag-4",
             "title": "Tag 4"
-          },
-          "arrayList": [
-            "tag 1",
-            "tag 2",
-            "tag 3",
-            "tag 4"
-          ]
+          }
         },
         "slug": "example-2"
       }
@@ -374,13 +251,7 @@
             "name": "tag 4",
             "slug": "tag-4",
             "title": "Tag 4"
-          },
-          "arrayList": [
-            "tag 1",
-            "tag 2",
-            "tag 3",
-            "tag 4"
-          ]
+          }
         },
         "slug": "example-2"
       }

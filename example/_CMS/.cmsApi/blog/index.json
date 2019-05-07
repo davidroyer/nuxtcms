@@ -20,13 +20,7 @@
         "name": "tag 1",
         "slug": "tag-1",
         "title": "Tag 1"
-      },
-      "arrayList": [
-        "newwww tag",
-        "tag 4",
-        "tag 5",
-        "tag 1"
-      ]
+      }
     },
     "title": "Example 1",
     "slug": "example-1",
@@ -56,24 +50,9 @@
         "name": "tag 4",
         "slug": "tag-4",
         "title": "Tag 4"
-      },
-      "arrayList": [
-        "tag 1",
-        "tag 2",
-        "tag 3",
-        "tag 4"
-      ]
+      }
     },
     "slug": "example-2",
     "html": "<h2 class=\"style-me\" id=\"header-with-class\">Header With Class</h2>\n<p data-toggle=\"modal\">paragraph</p>\n<p><code>inline code test</code></p>\n<h2 id=\"i-can%E2%80%99t-lie.-this-isss-amazing!!!\">I can’t lie. This isss amazing!!!</h2>\n<div class=\"warning custom-block\"><p class=\"custom-block-title\">WARNING</p>\n<p>Something special here! 💻 🔑 😄 :</p>\n</div>\n<div class=\"tip custom-block\"><p class=\"custom-block-title\">TIP</p>\n<p>Something special here! 💻 🔑 😄 :</p>\n</div>\n<h1 id=\"heading-1sss\">heading 1sss</h1>\n<h2 id=\"heading-2ssss\">heading 2ssss</h2>\n<h1 id=\"heading-2\">heading 2</h1>\n<ul>\n<li>item 1</li>\n<li>item 2\n<ul>\n<li>item 1</li>\n</ul>\n</li>\n<li>item 3wss</li>\n</ul>\n<div class=\"tip custom-block\"><p class=\"custom-block-title\">TIP</p>\n<p>This is a tip</p>\n</div>\n<div class=\"warning custom-block\"><p class=\"custom-block-title\">WARNING</p>\n<p>This is a warning</p>\n</div>\n<p>abqaa</p>\n<div class=\"danger custom-block\"><p class=\"custom-block-title\">WARNING</p>\n<p>This is a dangerous warning</p>\n</div>\n<div class=\"danger custom-block\"><p class=\"custom-block-title\">STOP</p>\n<p>Danger zone, do not proceed!</p>\n</div>\n<h1 id=\"head-1\">head 1</h1>\n<p><a href=\"https://www.google.com\" target=\"_blank\" rel=\"noopener\">I’m an inline-style link</a></p>\n<!-- \n![Image Test](~/assets/hero1.png) -->\n<h1 id=\"heading-1as\">heading 1as</h1>\n<h2 id=\"heading-2aaass\">Heading 2aaass</h2>\n<p>ssss</p>\n<p>😄</p>\n<h1 id=\"heading-1cb\">heading 1cb</h1>\n<h2 id=\"heading-2b\">heading 2b</h2>\n<h2 id=\"heading-2-2\">heading 2</h2>\n<h3 id=\"heading-3\">heading 3</h3>\n"
-  },
-  "example-draft": {
-    "title": "My Draft Test Article",
-    "draft": true,
-    "slug": "example-draft",
-    "tags": {
-      "arrayList": []
-    },
-    "html": "<h2 id=\"what-this-is-for\">What this is for</h2>\n<p>This file should show in DEV but not PRODUCTION</p>\n"
   }
 }

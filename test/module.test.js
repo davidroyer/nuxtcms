@@ -1,36 +1,18 @@
-jest.setTimeout(60000)
-// process.env.PORT = process.env.PORT || 5060
-
-const { Nuxt, Builder } = require('nuxt-edge')
+const path = require('path')
+const { Nuxt } = require('nuxt-edge')
 const request = require('request-promise-native')
-const getPort = require('get-port')
 
-const config = require('../example/nuxt.config')
-// config.dev = false
-
-let nuxt, port
-
-const url = path => `http://localhost:${port}${path}`
+const url = path => `http://localhost:3000${path}`
 const get = path => request(url(path))
 
 describe('basic', () => {
-  beforeAll(async () => {
-    // eslint-disable-next-line no-console
-    console.log('INSIDE beforeAll')
+  let nuxt
 
-    nuxt = new Nuxt(config)
-    await nuxt.ready()
-    await new Builder(nuxt).build()
-    port = await getPort()
-
-    // eslint-disable-next-line no-console
-    console.log('TCL: port', port)
-    await nuxt.listen(port)
-
-    // config.dev = false
-    // nuxt = new Nuxt(config)
-    // await new Builder(nuxt).build()
-    // await nuxt.listen(process.env.PORT)
+  test('start', async () => {
+    nuxt = new Nuxt({
+      rootDir: path.resolve(__dirname, '..', 'example')
+    })
+    await nuxt.listen(3000)
   })
 
   afterAll(async () => {

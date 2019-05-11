@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.15](https://github.com/davidroyer/nuxtcms/compare/v0.8.14...v0.8.15) (2019-05-11)
+
+
+### Bug Fixes
+
+* removes logs ([2c7fe2e](https://github.com/davidroyer/nuxtcms/commit/2c7fe2e))
+
+
+
 ## [0.8.14](https://github.com/davidroyer/nuxtcms/compare/v0.8.13...v0.8.14) (2019-05-04)
 
 

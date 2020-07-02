@@ -135,8 +135,8 @@ computed: {
 ## Using Provided Blog Styles
 
 ```html
-<style src="@@/lib/assets/blog-styles.css"></style>
-<style src="@@/node_modules/prismjs/themes/prism-tomorrow.css">
+<style src="@droyer/nuxtcms/lib/assets/blog-styles.css"></style>
+<style src="prismjs/themes/prism-tomorrow.css"></style>
 ```
 
 ## Setup

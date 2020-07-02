@@ -149,11 +149,11 @@ computed: {
 {
   modules: [
     // Simple usage
-    "nuxtcms",
+    "@droyer/nuxtcms",
 
     // With options
     [
-      "nuxtcms",
+      "@droyer/nuxtcms",
       {
         /* module options */
       }

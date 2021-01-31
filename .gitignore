@@ -12,3 +12,6 @@ _BACKUP
 .BACKUP
 
 lib/cms.js
+
+example/**/.cmsApi
+example_CMS/.cmsApi/

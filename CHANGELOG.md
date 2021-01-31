@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.16](https://github.com/davidroyer/nuxtcms/compare/v0.8.15...v0.8.16) (2021-01-31)
+
+
+### Bug Fixes
+
+* fixes all current issues ([580bf6f](https://github.com/davidroyer/nuxtcms/commit/580bf6f))
+* **README:** fixes example of importing styles ([a86e79f](https://github.com/davidroyer/nuxtcms/commit/a86e79f))
+
+
+
 ## [0.8.15](https://github.com/davidroyer/nuxtcms/compare/v0.8.14...v0.8.15) (2019-05-11)
 
 

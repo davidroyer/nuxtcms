@@ -61,7 +61,7 @@
     "http-server": "^0.11.1",
     "husky": "latest",
     "jest": "^24.8.0",
-    "nuxt-edge": "^2.7.0-25953129.a88e8b60",
+    "nuxt-edge": "latest",
     "request": "latest",
     "request-promise-native": "latest",
     "standard-version": "latest",

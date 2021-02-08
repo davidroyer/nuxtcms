@@ -1,7 +1,6 @@
 <template>
   <div>
     <h2>Data File Example</h2>
-    <pre>{{ $store.state.dataFileExample }}</pre>
   </div>
 </template>
 
